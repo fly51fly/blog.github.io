@@ -123,7 +123,7 @@ table:not([class]) tr:hover {
   background: var(--block);
 }
 *[ff=title] {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: ZFonts, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
 }
 blockquote {
   display: block;
@@ -694,8 +694,8 @@ table:not([class]) {
   outline: none;
 }
 html {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
-  font-size: 16px;
+  font-family: ZFonts, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-size: 19.3px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   scroll-behavior: smooth;
@@ -3214,7 +3214,7 @@ details.folding[child=iframe] >div.body {
   display: block;
 }
 .md-text.indent .tag-plugin.tabs .tab-content p:not([class]) {
-  text-indent: calc(0.9375rem * 2);
+  text-indent: calc(0.9999rem * 2);
 }
 .md-text.indent .tag-plugin.tabs .tab-content p:not([class]) a {
   text-indent: 0;
@@ -4054,7 +4054,7 @@ nav.menu a.nav-item:hover {
   padding: 0.5rem 0;
   line-height: 1;
   box-sizing: border-box;
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: ZFonts, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
   color: var(--text-p0);
 }
 .search-wrapper.noresult .search-icon {
@@ -4872,7 +4872,7 @@ h1.article-title {
   overflow: hidden;
 }
 .md-text.content.indent >p:not([class]) {
-  text-indent: calc(0.9375rem * 2);
+  text-indent: calc(0.9999rem * 2);
   text-align: left;
 }
 .md-text.content.indent >p:not([class]) a {
@@ -5012,7 +5012,7 @@ h1.article-title {
   margin-top: -0.5rem;
 }
 .md-text p {
-  font-size: 0.9375rem;
+  font-size: 0.9999rem;
 }
 .md-text pre {
   -webkit-font-smoothing: auto;
