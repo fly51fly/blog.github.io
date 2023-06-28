@@ -23,22 +23,22 @@
   <title>图解：私有知识库LLM聊天机器人 - 爱可可的小窝</title>
 
   
-    <meta name="description" content="原文：LLM based Chatbot to query Private Knowledge Base pCdeUHI.png   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。 使用与嵌入知识库本身">
+    <meta name="description" content="原文：LLM based Chatbot to query Private Knowledge Base LLM based Chatbot to query Private Knowledge Base   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图解：私有知识库LLM聊天机器人">
 <meta property="og:url" content="https://blog.aicoco.net/2023/06/28/LLM-based-Chatbot-to-query-Private-Knowledge-Base/index.html">
 <meta property="og:site_name" content="爱可可的小窝">
-<meta property="og:description" content="原文：LLM based Chatbot to query Private Knowledge Base pCdeUHI.png   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。 使用与嵌入知识库本身">
+<meta property="og:description" content="原文：LLM based Chatbot to query Private Knowledge Base LLM based Chatbot to query Private Knowledge Base   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s1.ax1x.com/2023/06/28/pCdeUHI.png">
+<meta property="og:image" content="http://qn.aicoco.net/img_20230628_uwZD5j.jpg">
 <meta property="article:published_time" content="2023-06-28T01:18:02.000Z">
-<meta property="article:modified_time" content="2023-06-28T01:29:43.010Z">
+<meta property="article:modified_time" content="2023-06-28T04:38:45.788Z">
 <meta property="article:author" content="Guang Chen">
 <meta property="article:tag" content="LLM">
 <meta property="article:tag" content="ChatGPT">
 <meta property="article:tag" content="Chatbot">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://s1.ax1x.com/2023/06/28/pCdeUHI.png">
+<meta name="twitter:image" content="http://qn.aicoco.net/img_20230628_uwZD5j.jpg">
 <meta name="twitter:creator" content="@fly51fly">
   
   
@@ -91,7 +91,7 @@
 
 
 
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/06/20/chatgpt/"><span class="title">ChatGPT类服务汇总</span></a><a class="item title" href="/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/"><span class="title">用LLM生成SQL的注意事项</span></a><a class="item title" href="/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/"><span class="title">聪明人解决难题可能更慢</span></a><a class="item title" href="/2023/06/27/The_Curious_Case_of_LLM_Evaluations/"><span class="title">关于大型语言模型评估的思考</span></a><a class="item title" href="/2023/06/27/What_s_going_on_with_the_Open_LLM_Leaderboard/"><span class="title">Open LLM Leaderboard排名之谜</span></a></div></widget>
+<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/06/26/How-to-Break-into-AI-Engineering/"><span class="title">AI工程师入门指南</span></a><a class="item title" href="/2023/06/26/script-vs-program/"><span class="title">脚本(Script)与程序(Program)</span></a><a class="item title" href="/2023/06/20/chatgpt/"><span class="title">ChatGPT类服务汇总</span></a><a class="item title" href="/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/"><span class="title">用LLM生成SQL的注意事项</span></a><a class="item title" href="/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/"><span class="title">聪明人解决难题可能更慢</span></a></div></widget>
 
 
 
@@ -113,7 +113,7 @@
 <article class='md-text content post'>
 <h1 class="article-title"><span>图解：私有知识库LLM聊天机器人</span></h1>
 <p>原文：<a target="_blank" rel="noopener" href="https://twitter.com/Aurimas_Gr/status/1673621343122726912">LLM based Chatbot to query Private Knowledge Base</a></p>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s1.ax1x.com/2023/06/28/pCdeUHI.png" alt="pCdeUHI.png"/></div><div class="image-meta"><span class="image-caption center">pCdeUHI.png</span></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="http://qn.aicoco.net/img_20230628_uwZD5j.jpg" alt="LLM based Chatbot to query Private Knowledge Base"/></div><div class="image-meta"><span class="image-caption center">LLM based Chatbot to query Private Knowledge Base</span></div></div>
 
 <ol>
 <li>将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源；</li>
