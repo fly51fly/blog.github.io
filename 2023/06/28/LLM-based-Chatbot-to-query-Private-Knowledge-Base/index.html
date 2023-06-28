@@ -20,28 +20,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   
-  <title>AI工程师入门指南 - 爱可可的小窝</title>
+  <title>图解：私有知识库LLM聊天机器人 - 爱可可的小窝</title>
 
   
-    <meta name="description" content="原文：Ask HN: How to Break into AI Engineering 文章提到了学习AI工程所需的技能和知识的一些资源，包括数学基础、统计学、Python编程、IBM数据科学专业证书、机器学习和深度学习专业课程等。还讨论了数学在软件工程师中的重要性以及AI工程的发展趋势。 要点：  要成为AI工程师，需要有扎实的数学基础，尤其是微积分和线性代数。 需要掌握统计学的语言和基本概念。">
+    <meta name="description" content="原文：LLM based Chatbot to query Private Knowledge Base pCdeUHI.png   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。 使用与嵌入知识库本身">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AI工程师入门指南">
-<meta property="og:url" content="https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/index.html">
+<meta property="og:title" content="图解：私有知识库LLM聊天机器人">
+<meta property="og:url" content="https://blog.aicoco.net/2023/06/28/LLM-based-Chatbot-to-query-Private-Knowledge-Base/index.html">
 <meta property="og:site_name" content="爱可可的小窝">
-<meta property="og:description" content="原文：Ask HN: How to Break into AI Engineering 文章提到了学习AI工程所需的技能和知识的一些资源，包括数学基础、统计学、Python编程、IBM数据科学专业证书、机器学习和深度学习专业课程等。还讨论了数学在软件工程师中的重要性以及AI工程的发展趋势。 要点：  要成为AI工程师，需要有扎实的数学基础，尤其是微积分和线性代数。 需要掌握统计学的语言和基本概念。">
+<meta property="og:description" content="原文：LLM based Chatbot to query Private Knowledge Base pCdeUHI.png   将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源； 用嵌入(Embedding)模型将每个块转换为一个向量； 将所有向量存储在向量数据库； 分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。 使用与嵌入知识库本身">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-06-26T09:18:01.000Z">
-<meta property="article:modified_time" content="2023-06-26T09:26:48.341Z">
+<meta property="og:image" content="https://s1.ax1x.com/2023/06/28/pCdeUHI.png">
+<meta property="article:published_time" content="2023-06-28T01:18:02.000Z">
+<meta property="article:modified_time" content="2023-06-28T01:29:43.010Z">
 <meta property="article:author" content="Guang Chen">
-<meta property="article:tag" content="AI">
-<meta property="article:tag" content="Engineering">
-<meta property="article:tag" content="Learning">
-<meta name="twitter:card" content="summary">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="Chatbot">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s1.ax1x.com/2023/06/28/pCdeUHI.png">
 <meta name="twitter:creator" content="@fly51fly">
   
   
   
-  <meta name="keywords" content="AI,Engineering,Learning">
+  <meta name="keywords" content="LLM,ChatGPT,Chatbot">
 
   <!-- feed -->
   
@@ -106,41 +108,33 @@
 
 
 
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%96%87%E6%91%98/">文摘</a></div><div id="post-meta">发布于&nbsp;<time datetime="2023-06-26T09:18:01.000Z">2023-06-26</time></div></div>
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%96%87%E6%91%98/">文摘</a></div><div id="post-meta">发布于&nbsp;<time datetime="2023-06-28T01:18:02.000Z">2023-06-28</time></div></div>
 
 <article class='md-text content post'>
-<h1 class="article-title"><span>AI工程师入门指南</span></h1>
-<p>原文：<a target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=36432598">Ask HN: How to Break into AI Engineering</a></p>
-<p>文章提到了学习AI工程所需的技能和知识的一些资源，包括数学基础、统计学、Python编程、IBM数据科学专业证书、机器学习和深度学习专业课程等。还讨论了数学在软件工程师中的重要性以及AI工程的发展趋势。</p>
-<p>要点：</p>
-<ul>
-<li>要成为AI工程师，需要有扎实的数学基础，尤其是微积分和线性代数。</li>
-<li>需要掌握统计学的语言和基本概念。</li>
-<li>学习Python编程语言，掌握PyTorch。</li>
-<li>推荐学习资源包括IBM Data Science Professional Certificate、Oliver Theobald的《Machine Learning for Absolute Beginners》、Andrew Ng的Coursera课程（包括《Machine Learning Specialization》和《Deep Learning Specialization》）以及fast.ai课程。</li>
-<li>在选择AI领域的方向时，可以考虑自然语言处理（NLProc）、视觉处理（Vision）、强化学习（RL）等。</li>
-<li>如果想在大型科技公司找工作，需要准备Leetcode面试、学习系统设计和机器学习系统的设计，还可以参考Chip Huyen的相关书籍。</li>
-<li>数学在软件工程师中可能变得更加重要，因为AI在软件开发生命周期中的应用越来越广泛。</li>
-<li>AI工程师的角色可以分为专注于模型改进、优化模型性能以及将模型应用于大型应用程序的不同方面。</li>
-<li>学习数据清洗、数据标注和训练算法的基本过程非常重要，这些内容常常被忽视和低估。</li>
-<li>AI工程师可以选择从数据工程入门，然后再专注于AI领域的特定方向。</li>
-<li>AI工程师不仅需要技术知识，还需要与科学、数学等领域的知识相结合，可以结合自己的专业背景和兴趣选择方向。</li>
-<li>AI工程师的角色可以是数据工程师的一种特殊化，不一定需要成为数学专家，但需要扎实的工程和数据处理能力。</li>
-<li>AI工程师可以选择从事机器学习工程、数据工程和运维方面的工作，也可以选择研究工作，但后者通常需要更高的学历和数学基础。</li>
-<li>了解数据工程的发展历程可以对AI工程师的角色有所启示，从中可以看到AI工程师可能在软件工程和AI领域之间进行工作。</li>
-<li>AI工程师需要不断学习和尝试，掌握最新的技术和工具，并将其应用于实际项目中。</li>
-<li>可以借助ChatGPT等工具来获取学习和编码的帮助，但仍需要自己进行实践和验证。</li>
-<li>AI工程师的发展可能因不同的公司和行业而异，需要根据实际情况进行选择和发展。</li>
-</ul>
+<h1 class="article-title"><span>图解：私有知识库LLM聊天机器人</span></h1>
+<p>原文：<a target="_blank" rel="noopener" href="https://twitter.com/Aurimas_Gr/status/1673621343122726912">LLM based Chatbot to query Private Knowledge Base</a></p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s1.ax1x.com/2023/06/28/pCdeUHI.png" alt="pCdeUHI.png"/></div><div class="image-meta"><span class="image-caption center">pCdeUHI.png</span></div></div>
+
+<ol>
+<li>将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源；</li>
+<li>用嵌入(Embedding)模型将每个块转换为一个向量；</li>
+<li>将所有向量存储在向量数据库；</li>
+<li>分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。</li>
+<li>使用与嵌入知识库本身所使用的相同的嵌入模型，将要提问的问题&#x2F;查询进行嵌入，转换成向量；</li>
+<li>使用生成的向量在向量数据库的索引中运行一个查询。选择要从向量数据库中检索多少个向量 - 这将等于您将要检索和最终用于回答查询问题的上下文数量；</li>
+<li>向量数据库对所提供的向量执行近似最近邻(ANN)搜索，并返回之前选择的上下文向量的数量。该过程返回在给定的嵌入&#x2F;潜空间中最相似的向量；</li>
+<li>将返回的向量嵌入映射到对应的文本块；</li>
+<li>将问题与检索到的上下文文本块一起传给LLM(大语言模型)，通过提示指示LLM仅使用提供的上下文来回答给定的问题。这并不意味着不需要进行提示工程 - 需要确保LLM返回的答案符合预期的范围，例如，如果在检索到的上下文中没有可用的数据，则确保不提供虚构的答案。</li>
+</ol>
 
 
 
-<div class="article-footer reveal fs14"><section id="references"><div class="header"><span>参考资料</span></div><div class="body"><ul><li class="post-title"><a href="https://news.ycombinator.com/item?id=36432598" target="_blank" rel="external nofollow noopener noreferrer">Ask HN: How to Break into AI Engineering</a></li></ul></div></section><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+<div class="article-footer reveal fs14"><section id="references"><div class="header"><span>参考资料</span></div><div class="body"><ul><li class="post-title"><a href="https://twitter.com/Aurimas_Gr/status/1673621343122726912" target="_blank" rel="external nofollow noopener noreferrer">LLM based Chatbot to query Private Knowledge Base</a></li></ul></div></section><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
 </div></section></div>
 
 </article>
 
-<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2023/06/26/script-vs-program/">脚本(Script)与程序(Program)</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/">聪明人解决难题可能更慢</a></div></section></div>
+<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2023/06/28/LLM-Powered-Autonomous-Agents/">LLM赋能的自主智能体(Agent)</a></div></section></div>
 
 
 
