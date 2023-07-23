@@ -24,15 +24,15 @@
   <title>关于大型语言模型评估的思考 - 爱可可小窝</title>
 
   
-    <meta name="description" content="原文：The Curious Case of LLM Evaluations 本文讨论了在评估大型语言模型(LLM)时面临的一些复杂问题。评估和基准测试一直是具有挑战性的，而大型多用途模型的出现进一步增加了复杂性。数据泄漏、覆盖范围限制、虚假相关性和分区问题等问题困扰着我们的评估实践。此外，精度与召回的权衡、缺乏真实标准进一步增加了困扰。本文探讨了机器学习评估中的常见问题，并深入研究了LLM所面临">
+    <meta name="description" content="原文：The Curious Case of LLM Evaluations 语言模型评估的复杂性和挑战作者在本文中讨论了语言模型（LLMs）评估中的复杂问题和挑战。他指出随着建模、扩展和泛化技术的快速发展，我们的基准测试能力却没有同步增长，导致了评估的不足和过度夸大的能力。即使每一项能力都非常优秀，如果我们没有合适的工具来了解这些能力是如何实现的，或者模型在这些能力上的表现如何，那么我们可能会过">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于大型语言模型评估的思考">
 <meta property="og:url" content="https://blog.aicoco.net/2023/06/27/The_Curious_Case_of_LLM_Evaluations/index.html">
 <meta property="og:site_name" content="爱可可小窝">
-<meta property="og:description" content="原文：The Curious Case of LLM Evaluations 本文讨论了在评估大型语言模型(LLM)时面临的一些复杂问题。评估和基准测试一直是具有挑战性的，而大型多用途模型的出现进一步增加了复杂性。数据泄漏、覆盖范围限制、虚假相关性和分区问题等问题困扰着我们的评估实践。此外，精度与召回的权衡、缺乏真实标准进一步增加了困扰。本文探讨了机器学习评估中的常见问题，并深入研究了LLM所面临">
+<meta property="og:description" content="原文：The Curious Case of LLM Evaluations 语言模型评估的复杂性和挑战作者在本文中讨论了语言模型（LLMs）评估中的复杂问题和挑战。他指出随着建模、扩展和泛化技术的快速发展，我们的基准测试能力却没有同步增长，导致了评估的不足和过度夸大的能力。即使每一项能力都非常优秀，如果我们没有合适的工具来了解这些能力是如何实现的，或者模型在这些能力上的表现如何，那么我们可能会过">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-06-27T02:00:41.000Z">
-<meta property="article:modified_time" content="2023-06-28T12:41:10.246Z">
+<meta property="article:modified_time" content="2023-07-23T09:40:43.109Z">
 <meta property="article:author" content="Guang Chen">
 <meta property="article:tag" content="LLM">
 <meta property="article:tag" content="ChatGPT">
@@ -90,9 +90,7 @@
 <widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/blog/" placeholder="文章搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
 
 
-
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/06/26/script-vs-program/"><span class="title">脚本(Script)与程序(Program)</span></a><a class="item title" href="/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/"><span class="title">聪明人解决难题可能更慢</span></a><a class="item title" href="/2023/06/26/How-to-Break-into-AI-Engineering/"><span class="title">AI工程师入门指南</span></a><a class="item title" href="/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/"><span class="title">用LLM生成SQL的注意事项</span></a><a class="item title" href="/2023/06/20/chatgpt/"><span class="title">ChatGPT类服务汇总</span></a></div></widget>
-
+<widget class="widget-wrapper toc single" id="data-toc"><div class="widget-header cap dis-select"><span class="name">关于大型语言模型评估的思考</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E5%A4%8D%E6%9D%82%E6%80%A7%E5%92%8C%E6%8C%91%E6%88%98"><span class="toc-text">语言模型评估的复杂性和挑战</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%84%E4%BC%B0%E4%B8%AD%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="toc-text">评估中的常见问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%84%E4%BC%B0%E7%BB%84%E4%BB%B6%EF%BC%9ALLMs%E7%9A%84%E5%85%AD%E4%B8%AA%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86"><span class="toc-text">评估组件：LLMs的六个组成部分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol></li></ol></div></div></widget>
 
 
 
@@ -113,26 +111,24 @@
 <article class='md-text content post'>
 <h1 class="article-title"><span>关于大型语言模型评估的思考</span></h1>
 <p>原文：<a target="_blank" rel="noopener" href="https://nlpurr.github.io/posts/case-of-llm-evals.html">The Curious Case of LLM Evaluations</a></p>
-<p>本文讨论了在评估大型语言模型(LLM)时面临的一些复杂问题。评估和基准测试一直是具有挑战性的，而大型多用途模型的出现进一步增加了复杂性。数据泄漏、覆盖范围限制、虚假相关性和分区问题等问题困扰着我们的评估实践。此外，精度与召回的权衡、缺乏真实标准进一步增加了困扰。本文探讨了机器学习评估中的常见问题，并深入研究了LLM所面临的具体挑战。将评估媒介分为直接度量、辅助模型评估和模型驱动评估，并阐明了每种方法的细微差别。在审慎的前提下，探索了如何报告性能指标，并强调了细粒度的重要性。同时，对提示微调进行了审视，并提醒要考虑用户交互的现实性。在深入了解评估领域的同时，明白了对这些复杂性的全面理解对于有意义地评估LLMs至关重要。</p>
-<p>要点：  </p>
-<ul>
-<li>我们的建模、扩展和泛化技术发展得比我们的基准能力快，导致评估不佳和被夸大的能力。  </li>
-<li>评估和基准已经变得复杂，尤其是对于大型生成模型和长文本生成。  </li>
-<li>评估中的常见问题包括数据泄漏、覆盖范围不足、虚假相关性、数据集分割和表述问题。  </li>
-<li>神经网络输出通常与随机种子略有关联，单次推断结果可能会导致错误的结果。  </li>
-<li>对于不同任务，准确率和召回率的权衡并不相同，需要根据任务的特点进行评估。  </li>
-<li>在机器学习中存在许多关于数据选择和保留的决策，对于复制和验证研究结果以及论文审查和讨论都很重要。  </li>
-<li>语言模型评估可以分为六个组成部分：评估数据集、模型输出、样本&#x2F;输出转换、评估媒介、性能报告和参考材料。  </li>
-<li>评估数据集的构建和使用会引入一系列问题，如模糊性、数据泄漏、覆盖范围和偏见等。  </li>
-<li>模型输出的评估受到提示和回答方式的影响，需要注意输出的可靠性和一致性。  </li>
-<li>对模型输出进行转换的方法包括循环变换、链式变换、原子输出和约束输出等。  </li>
-<li>在评估中使用的基准真实性需要谨慎处理，特别是在考虑到现实场景的情况下。  </li>
-<li>评估媒介可以分为直接评估指标、间接或分解式模型评估和模型驱动评估。  </li>
-<li>在报告性能指标时，需要考虑数据集划分和细微变化的影响，并保持适度的怀疑态度。  </li>
-<li>需要对评估结果的可靠性和统计显著性进行正确解读，避免基于细微差异和单次推断结果宣称显著改进。  </li>
-<li>对于直接面向用户的端到端模型，需要考虑最佳提示是否适用于所有用户，并理解评估中存在的复杂性。  </li>
-<li>综合理解这些复杂性对于有意义地评估语言模型至关重要。</li>
+<h3 id="语言模型评估的复杂性和挑战"><a href="#语言模型评估的复杂性和挑战" class="headerlink" title="语言模型评估的复杂性和挑战"></a>语言模型评估的复杂性和挑战</h3><p>作者在本文中讨论了语言模型（LLMs）评估中的复杂问题和挑战。他指出随着建模、扩展和泛化技术的快速发展，我们的基准测试能力却没有同步增长，导致了评估的不足和过度夸大的能力。即使每一项能力都非常优秀，如果我们没有合适的工具来了解这些能力是如何实现的，或者模型在这些能力上的表现如何，那么我们可能会过分高估模型的能力。如果我们总是在铺好的道路上进行比赛，每个右转都是黄树，每个左转都是绿树，那么我们可能会认为模型在每次比赛中都会获胜。</p>
+<h4 id="评估中的常见问题"><a href="#评估中的常见问题" class="headerlink" title="评估中的常见问题"></a>评估中的常见问题</h4><ul>
+<li>数据泄露：测试数据泄露到训练集中，特别是对于LLMs，其中数据集的细节通常缺失。</li>
+<li>覆盖问题：评估数据集往往无法全面涵盖某个任务的所有不同方式，可能导致准确性问题、样本规模问题、可变性问题或鲁棒性问题。</li>
+<li>虚假相关性：评估集合中的某些任务可能存在“捷径”解决方案，导致评估结果不准确。</li>
+<li>分区和措辞：评估数据集的划分不容易处理，可能导致意外泄露。例如，对于以人为中心的任务，评估数据集通常不是为用户单独划分的，而是单独划分为样本。</li>
+<li>随机种子：神经网络输出通常会在某种程度上依赖于随机种子，导致单次推断结果可能导致错误的结果，给情况提供不清晰的画面。</li>
+<li>精度与召回的权衡：对于不同任务，误报和漏报的影响并不相同，而许多人仅报告准确性结果。</li>
 </ul>
+<h4 id="评估组件：LLMs的六个组成部分"><a href="#评估组件：LLMs的六个组成部分" class="headerlink" title="评估组件：LLMs的六个组成部分"></a>评估组件：LLMs的六个组成部分</h4><ul>
+<li>评估数据集：这些是用于评估模型的测试样本。构建和使用这些评估数据集有多种方法，但每种方法都伴随着一系列问题。</li>
+<li>模型输出：评估从生成模型中获得的输出。模型输出对于所问问题的不同形式和答案的不同形式可能会有所影响。</li>
+<li>样本&#x2F;输出转换：对模型输出或其输入进行的许多转换。这些转换可以大致分为4类：循环变换、链式变换、原子输出和约束输出。</li>
+<li>地面真实值：考虑到评估的当前情况，地面真实值可能具有偏见、模糊或高度不一致的问题。在进行评估时，需要多次比较模型的输出以获得真实分布的比较。</li>
+<li>评估介质：将评估介质分为三个不同的组别：直接评估指标、间接评估或分解的基于模型的评估和模型驱动的评估。</li>
+<li>性能报告：在报告性能指标时，需要考虑多种因素，如数据集划分和轻微变化。报告结果的均值和标准差对于解释结果的显著性至关重要。</li>
+</ul>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>评估LLMs是一项复杂的任务，需要综合考虑各种因素。数据泄露、覆盖问题、虚假相关性等是评估中的常见问题。不同的评估方法，包括直接评估指标、间接评估和模型驱动的评估，各自有其优势和不足。在报告性能指标时，需要注意准确性和细节，并认识到模型输出可能会因种子不同而产生变化。同时，需要小心使用优化的提示，因为最佳提示可能并不适用于所有用户或实际场景。理解这些复杂性对于有效评估LLMs非常重要。</p>
 
 
 
