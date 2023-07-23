@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-23T06:54:00.782Z</updated>
+  <updated>2023-07-23T07:01:30.071Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人和大模型之间最大的差距</title>
+    <link href="https://blog.aicoco.net/2023/07/23/differences-between-human-and-ai/"/>
+    <id>https://blog.aicoco.net/2023/07/23/differences-between-human-and-ai/</id>
+    <published>2023-07-23T06:55:53.000Z</published>
+    <updated>2023-07-23T07:01:30.071Z</updated>
+    
+    <content type="html"><![CDATA[<p>非常认同Andrej Kalpathy在“State of GPT”报告里分享的观点（以下为宝玉搬运字幕版，中文翻译质量很高），结合我的思考进一步阐述如下：</p><p><a href="https://weibo.com/tv/show/1034:4906247460421679">微软2003年Build大会演讲：如何训练和应用GPT</a></p><p>人和大模型之间最大的差距，在于思考过程和追求答案的方向。</p><p>人有内心独白，会调动经验，拆解问题，进行复杂的思考过程，追求<strong>合理、准确</strong>的答案，注重答案<strong>从内容到形式的“优雅”<strong>，即我们常说的”</strong>信·达·雅</strong>“。人类思维涉及更深层次的推理和判断，结合自身人格，做出对道德、情感和价值的独立考量。更会对答案进行<strong>反思和批判</strong>，从内外得到的反馈中，得到精神享受或改进经验。</p><p>相比之下，大模型（典型如LLM）没有内心独白，背靠超级广泛的事实知识，通过上下文关联调度工作记忆，追求<strong>全面综合已知语料达成的内容和形式上的最佳外推，或模仿</strong>。大模型的目标，往往在于以大量数据为基础，给出”<strong>不跑偏</strong>“的延拓，而非像人类一样进行复杂的思考过程。至于思维链，也是在上下文引导下对思考过程描述数据的模仿。最新的研究表明，大模型<strong>有一定的进行隐性”反思“的能力</strong>，即对于质量不高的回答，”心“里往往是”有数“的，但机制如何、是否鲁棒、如何利用尚无定论。</p><p><strong>提示(Prompt)<strong>的出现，一定程度上弥补了这两种认知架构之间的差异。通过设计有效的提示，人们可以引导大模型的输出，使其更接近人类的思考方式和期望的答案。提示可以提供上下文、约束和指导，使大模型更好地理解问题，并生成更准确、相关和符合人类期望的回答。本质上，就是</strong>用心智模型，引导模仿过程，达成符合我们对”智能“预期的答案</strong>。</p><p>因此，提示的使用，在人与大模型之间架起了一座桥梁，帮助弥合了两者认知架构的差异。这使得大模型能够更好地满足人类需求，并在特定任务中展现出更高的准确性和可用性。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;非常认同Andrej Kalpathy在“State of GPT”报告里分享的观点（以下为宝玉搬运字幕版，中文翻译质量很高），结合我的思考进一步阐述如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://weibo.com/tv/show/1034:49062474604</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+    <category term="AI" scheme="https://blog.aicoco.net/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>大模型参数规模越大越好吗？</title>
@@ -503,35 +530,6 @@
     <category term="IQ" scheme="https://blog.aicoco.net/tags/IQ/"/>
     
     <category term="Intelligence" scheme="https://blog.aicoco.net/tags/Intelligence/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用LLM生成SQL的注意事项</title>
-    <link href="https://blog.aicoco.net/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/"/>
-    <id>https://blog.aicoco.net/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/</id>
-    <published>2023-06-26T02:21:36.000Z</published>
-    <updated>2023-06-29T03:14:10.379Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://iamnotarobot.substack.com/p/generating-sql-with-llms-for-fun">Generating SQL with LLMs for fun and profit</a></p><p>本文介绍了SQL和查询的概念，指出了使用语言模型生成SQL查询可能存在的安全风险，如恶意查询和数据泄露。文章建议在设计时限制查询类型，并不完全依赖语言模型自动生成代码，以保证系统的可靠性和安全性。</p><p>要点：</p><ul><li>SQL代表结构化查询语言，是一种编程语言。</li><li>SQL查询可以执行恶意操作，例如删除或修改表。</li><li>使用sqlite甚至可以运行占用CPU的无限循环。</li><li>为了防止SQL注入，可以将数据库设置为只读或创建具有最低权限的受限角色。</li><li>仍然存在拒绝服务攻击和数据泄露的风险。</li><li>在使用语言模型设计查询时，不要让其实时转换自然语言为可执行代码。</li><li>LLM可以帮助设计查询，但不能完全信任它们。</li><li>在生产系统中，应该在设计阶段确定哪些类型的查询对用户可见，避免不必要的查询。</li><li>LLM适合用于查询设计，但不能实时转换自然语言为可执行代码。</li><li>不要完全依赖LLM，它们更适合于制作教程和指南，而不是可信赖的生产系统。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://iamnotarobot.substack.com/p/generating-sql-with-llms-for-fun&quot;&gt;Generating SQL with LLMs for fun and profit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-    <category term="SQL" scheme="https://blog.aicoco.net/tags/SQL/"/>
-    
-    <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
     
   </entry>
   
