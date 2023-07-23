@@ -24,15 +24,15 @@
   <title>科研数据分享最佳实践 - 爱可可的小窝</title>
 
   
-    <meta name="description" content="原文：How to make your scientific data accessible, discoverable and useful 研究人员越来越倾向于在发表论文时将数据一并公开，但并非每个期刊都要求作者公开数据集，有些作者因为担心被抢先发表或者时间不足而拒绝公开数据。数据科学家提出了一些发布高质量、可用数据的最佳实践：完善元数据、共享尽可能多的数据、采用标准化格式、附上代码以及考虑数">
+    <meta name="description" content="原文：How to make your scientific data accessible, discoverable and useful 这篇文章讨论了在开放科学和可重复性的背景下发布可用和高质量数据的最佳实践。越来越多的研究人员被鼓励在发表论文的同时提交数据，但在处理来自不同来源和格式的数据时可能会遇到挑战。以下是一些数据科学家建议的关键做法：  制定元数据: 元数据描述数据，对于使数据符">
 <meta property="og:type" content="article">
 <meta property="og:title" content="科研数据分享最佳实践">
 <meta property="og:url" content="https://blog.aicoco.net/2023/06/29/How-to-make-your-scientific-data-accessible-discoverable-and-useful/index.html">
 <meta property="og:site_name" content="爱可可的小窝">
-<meta property="og:description" content="原文：How to make your scientific data accessible, discoverable and useful 研究人员越来越倾向于在发表论文时将数据一并公开，但并非每个期刊都要求作者公开数据集，有些作者因为担心被抢先发表或者时间不足而拒绝公开数据。数据科学家提出了一些发布高质量、可用数据的最佳实践：完善元数据、共享尽可能多的数据、采用标准化格式、附上代码以及考虑数">
+<meta property="og:description" content="原文：How to make your scientific data accessible, discoverable and useful 这篇文章讨论了在开放科学和可重复性的背景下发布可用和高质量数据的最佳实践。越来越多的研究人员被鼓励在发表论文的同时提交数据，但在处理来自不同来源和格式的数据时可能会遇到挑战。以下是一些数据科学家建议的关键做法：  制定元数据: 元数据描述数据，对于使数据符">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-06-29T02:57:33.000Z">
-<meta property="article:modified_time" content="2023-06-29T03:14:37.591Z">
+<meta property="article:modified_time" content="2023-07-23T06:39:21.029Z">
 <meta property="article:author" content="Guang Chen">
 <meta property="article:tag" content="Academic">
 <meta property="article:tag" content="Data">
@@ -91,7 +91,7 @@
 
 
 
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/07/05/4_tips_for_programmers_to_stay_ahead_of_generative_AI/"><span class="title">AIGC时代程序员如何保持领先</span></a><a class="item title" href="/2023/07/06/AI_weights_are_not_open_source/"><span class="title">AI权重开"源"怎么论</span></a><a class="item title" href="/2023/07/10/Amateurs-obsess-over-tools-pros-over-mastery/"><span class="title">沉迷工具不会让你成为大师</span></a><a class="item title" href="/2023/07/22/good-code-like-love-letter/"><span class="title">好的代码就像一封情书</span></a><a class="item title" href="/2023/07/22/why-did-meta-open-source-llama/"><span class="title">Meta为何选择开源Llama 2？</span></a></div></widget>
+<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/06/29/How-to-make-your-scientific-data-accessible-discoverable-and-useful/"><span class="title">科研数据分享最佳实践</span></a><a class="item title" href="/2023/07/05/4_tips_for_programmers_to_stay_ahead_of_generative_AI/"><span class="title">AIGC时代程序员如何保持领先</span></a><a class="item title" href="/2023/07/06/AI_weights_are_not_open_source/"><span class="title">AI权重开"源"怎么论</span></a><a class="item title" href="/2023/07/10/Amateurs-obsess-over-tools-pros-over-mastery/"><span class="title">沉迷工具不会让你成为大师</span></a><a class="item title" href="/2023/07/22/good-code-like-love-letter/"><span class="title">好的代码就像一封情书</span></a></div></widget>
 
 
 
@@ -113,16 +113,22 @@
 <article class='md-text content post'>
 <h1 class="article-title"><span>科研数据分享最佳实践</span></h1>
 <p>原文：<a target="_blank" rel="noopener" href="https://www.nature.com/articles/d41586-023-01929-7">How to make your scientific data accessible, discoverable and useful</a></p>
-<p>研究人员越来越倾向于在发表论文时将数据一并公开，但并非每个期刊都要求作者公开数据集，有些作者因为担心被抢先发表或者时间不足而拒绝公开数据。数据科学家提出了一些发布高质量、可用数据的最佳实践：完善元数据、共享尽可能多的数据、采用标准化格式、附上代码以及考虑数据的可访问性。</p>
-<p>要点：</p>
-<ul>
-<li>研究人员越来越多地将数据与论文一起提交，以支持开放科研和可重复性。然而，并非每个期刊都要求作者提供数据集，有些作者也因担心被抢先发表或时间不够而拒绝提供数据。</li>
-<li>数据的元数据是使数据具有价值的关键，元数据是描述数据的数据，对于使数据具备可发现性、可访问性、可互操作性和可重用性至关重要，可以通过“README”文本文件来提供数据的详细说明。</li>
-<li>数据的原始版本和衍生版本都应该共享，原始数据可以让其他研究人员测试假设和处理策略，如果无法存储原始数据，至少应该发布用于生成图表的数据。</li>
-<li>建议遵循行业的标准和指南，将数据存储在专门的数据库或存档中，并使用开放、非专有的文件格式。</li>
-<li>如果使用了代码进行数据分析，应将代码与数据一起发布，并确保代码易于理解和运行。</li>
-<li>考虑到使用者的可访问性，应该咨询相关组织对数据标准和假设进行反馈，并设法确保数据的易用性和可重复性。</li>
-</ul>
+<p>这篇文章讨论了在开放科学和可重复性的背景下发布可用和高质量数据的最佳实践。越来越多的研究人员被鼓励在发表论文的同时提交数据，但在处理来自不同来源和格式的数据时可能会遇到挑战。以下是一些数据科学家建议的关键做法：</p>
+<ol>
+<li><p><strong>制定元数据</strong>: 元数据描述数据，对于使数据符合FAIR（可找到、可访问、可互操作、可重用）原则至关重要。科学家应提供详细的数据收集、处理和变量信息，以及表格或文件之间相互关联的解释。</p>
+</li>
+<li><p><strong>多分享</strong>: 最好能同时分享原始数据和派生数据。原始数据允许其他研究人员测试假设和处理策略，而派生数据则是分析的基础。</p>
+</li>
+<li><p><strong>采纳标准</strong>: 科学家应该寻求更广泛社区的指导，了解数据存储库和文件格式。推荐使用开放、非专有的文件格式，如CSV，以确保数据长期可读。</p>
+</li>
+<li><p><strong>包含代码</strong>: 当数据分析涉及代码时，研究人员应将代码与数据一起分享。代码应有良好的文档记录，清除特定计算机元素，并经过可重现性测试。</p>
+</li>
+<li><p><strong>考虑可访问性</strong>: 考虑潜在数据用户的技术基础设施和要求。咨询相关组织，以获取有关数据标准和假设的反馈，并为不同条件下的用户开发低技术解决方案。</p>
+</li>
+<li><p><strong>迈出第一步</strong>: 开放科学不必是非此即彼的。即使分享部分数据也能增加价值和促进合作机会。</p>
+</li>
+</ol>
+<p>通过遵循这些最佳实践，研究人员可以促进科学的发展，推动合作，并确保其工作的可重复性。</p>
 
 
 
