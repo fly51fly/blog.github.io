@@ -370,9 +370,9 @@
     
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
-    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
-    
     <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
+    
+    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
     
   </entry>
   

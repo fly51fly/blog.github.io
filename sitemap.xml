@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.aicoco.net/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/</loc>
+    
+    <lastmod>2023-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/2023/06/20/chatgpt/</loc>
     
     <lastmod>2023-07-23</lastmod>
@@ -137,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/</loc>
     
     <lastmod>2023-06-28</lastmod>
@@ -227,7 +227,7 @@
 
   
   <url>
-    <loc>https://blog.aicoco.net/tags/AIGC/</loc>
+    <loc>https://blog.aicoco.net/tags/Research/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,13 +235,6 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/LLM/</loc>
-    <lastmod>2023-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Research/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -256,6 +249,20 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/programming/</loc>
+    <lastmod>2023-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Academic/</loc>
+    <lastmod>2023-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Data/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -283,14 +290,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Academic/</loc>
+    <loc>https://blog.aicoco.net/tags/AIGC/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Data/</loc>
+    <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -311,21 +318,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Agent/</loc>
-    <lastmod>2023-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
-    <lastmod>2023-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
+    <lastmod>2023-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Agent/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
