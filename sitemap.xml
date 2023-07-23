@@ -234,14 +234,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Research/</loc>
+    <loc>https://blog.aicoco.net/tags/LLM/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/LLM/</loc>
+    <loc>https://blog.aicoco.net/tags/Research/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -283,14 +283,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/IQ/</loc>
+    <loc>https://blog.aicoco.net/tags/Academic/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Intelligence/</loc>
+    <loc>https://blog.aicoco.net/tags/Data/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -311,21 +311,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Academic/</loc>
+    <loc>https://blog.aicoco.net/tags/IQ/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Data/</loc>
-    <lastmod>2023-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
+    <loc>https://blog.aicoco.net/tags/Intelligence/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -333,6 +326,13 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
+    <lastmod>2023-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -362,14 +362,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

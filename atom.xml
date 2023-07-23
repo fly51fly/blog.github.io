@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>爱可可的小窝</title>
+  <title>爱可可小窝</title>
   
-  
+  <subtitle>@爱可可-爱生活 的学习与思考</subtitle>
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
