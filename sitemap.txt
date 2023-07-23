@@ -1,3 +1,4 @@
+https://blog.aicoco.net/2023/07/23/effects-of-more-params/
 https://blog.aicoco.net/2023/07/23/can-ai-displace-doctor/
 https://blog.aicoco.net/2023/06/29/How-to-make-your-scientific-data-accessible-discoverable-and-useful/
 https://blog.aicoco.net/2023/07/05/4_tips_for_programmers_to_stay_ahead_of_generative_AI/
@@ -23,18 +24,18 @@ https://blog.aicoco.net/2023/06/25/semantic-compression/
 https://blog.aicoco.net/
 https://blog.aicoco.net/tags/AIGC/
 https://blog.aicoco.net/tags/LLM/
-https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/SQL/
 https://blog.aicoco.net/tags/programming/
+https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/AI/
 https://blog.aicoco.net/tags/Engineering/
 https://blog.aicoco.net/tags/Learning/
 https://blog.aicoco.net/tags/Academic/
 https://blog.aicoco.net/tags/Data/
-https://blog.aicoco.net/tags/Agent/
-https://blog.aicoco.net/tags/ChatGPT/
 https://blog.aicoco.net/tags/IQ/
 https://blog.aicoco.net/tags/Intelligence/
+https://blog.aicoco.net/tags/Agent/
+https://blog.aicoco.net/tags/ChatGPT/
 https://blog.aicoco.net/tags/Chatbot/
 https://blog.aicoco.net/tags/Leaderboard/
 https://blog.aicoco.net/tags/Programming/

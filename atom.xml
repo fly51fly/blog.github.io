@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-23T06:47:32.509Z</updated>
+  <updated>2023-07-23T06:54:00.782Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大模型参数规模越大越好吗？</title>
+    <link href="https://blog.aicoco.net/2023/07/23/effects-of-more-params/"/>
+    <id>https://blog.aicoco.net/2023/07/23/effects-of-more-params/</id>
+    <published>2023-07-23T06:50:16.000Z</published>
+    <updated>2023-07-23T06:54:00.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>先说结论：<strong>规模是把双刃剑，平衡点需具体权衡</strong>。</p><p>从<strong>大模型记忆论</strong>的观点来看，模型规模越大，参数越多，记忆容量越高，对整体数据分布的把握就越全面，可以增加模型在推理时的工作记忆，生成<strong>更具创新性、更多样的结果</strong>。但与此同时，随着熵增，高概率候选结果的多样化会呈指数级爆发，这就带来了一个挑战：如何在这些结果中进行优选，使得模型的输出<strong>与人类的价值观对齐</strong>。</p><p>从<strong>大模型压缩论</strong>的观点来看，大模型的目标是通过压缩世界知识来实现智能。压缩率越高，模型对<strong>核心规律的理解</strong>就越深入，因此并不需要过大的参数规模。<strong>过多的参数可能导致资源浪费</strong>，盲目扩容并不能带来更高的性能提升，这也符合“广记不如巧记”的直觉。</p><p>从<strong>大模型数据中心论</strong>的观点看，数据的质和量是决定模型能力的核心因素。更大的模型需要更多的数据来进行训练。目前，大多大模型还处在“半饥饿”状态，即它们<strong>无法得到足够多的优质数据来满足其训练需求</strong>。且世界上可用于训练大模型的优质数据已经接近极限，进一步获取优质数据，目前可见有两个来源：一是从相对质量不高的数据来源攫取数据，清洗、优化的成本巨大；二是靠大模型自己生成，且不说这种自激强化&#x2F;近亲演化过程对模型可能造成的负面影响，生成内容的合理性、事实性目前都是大问题，如何分辨和用好这些数据在未来很长一段时间都会是个待解的难题。</p><p>从<strong>模型效能</strong>的角度来看，过大的模型规模可能会导致能源浪费，实现<strong>效果和成本的平衡</strong>是一个重要考虑因素。在这种情况下，深度挖掘中小规模模型潜力，使用专家模型优化路由的方式，通过分布式集成提高总体能力可能是更优的选择。</p><p>总的来说，虽然大模型具有较高的处理和学习能力，但是我们也需要考虑到参数量、数据的质与量、模型压缩和效能等多方面的因素。这需要我们在实践中进行权衡，找到最优的解决方案。模型规模和参数量的平衡点并不是个固定的数值，甚至没有经验可以指导，需要<strong>根据具体的应用场景、数据环境、计算资源和目标进行动态权衡和调整</strong>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先说结论：&lt;strong&gt;规模是把双刃剑，平衡点需具体权衡&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;从&lt;strong&gt;大模型记忆论&lt;/strong&gt;的观点来看，模型规模越大，参数越多，记忆容量越高，对整体数据分布的把握就越全面，可以增加模型在推理时的工作记忆，生成&lt;strong&gt;</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+    <category term="AI" scheme="https://blog.aicoco.net/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>医疗AI会取代人类医生吗？</title>
@@ -505,33 +532,6 @@
     <category term="SQL" scheme="https://blog.aicoco.net/tags/SQL/"/>
     
     <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>语义压缩导向编程</title>
-    <link href="https://blog.aicoco.net/2023/06/25/semantic-compression/"/>
-    <id>https://blog.aicoco.net/2023/06/25/semantic-compression/</id>
-    <published>2023-06-25T11:18:57.000Z</published>
-    <updated>2023-06-26T02:39:03.784Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://caseymuratori.com/blog_0015">Semantic Compression</a></p><p>这篇文章介绍了一种名为压缩导向编程的有效编码方法，通过重构代码、提取重复代码片段和使用函数来简化代码。这种方法强调简洁、可读性和可扩展性，相比过于追求对象导向编程的复杂方法更为实用。作者通过示例展示了如何通过重构代码来减少冗余和提高代码的可读性、可维护性和可扩展性。他强调了在实际编码中，将重复的代码片段提取出来形成可复用的函数或结构是一种更好的方式，而不是过度强调对象导向编程的方法。</p><p>有些程序员过于追求对象导向编程，使用复杂的方法和工具，但实际上简单的代码和函数可以更好地满足需求。通过压缩导向编程，我们可以通过逐步优化和重构代码来达到更高效的编程方式，同时减少开发时间和错误。</p><p>在文中，作者以一段C++代码为例，展示了如何通过重构代码、提取重复代码片段并使用结构和函数来简化代码。通过这种方式，代码变得更加简洁、可读性更强，同时也更易于扩展和维护。</p><p>以下为本文要点：</p><ul><li>对于解决实际问题，首先需要基于问题中的复数名词创建相应的类，如员工类和经理类。</li><li>为了将经理类与员工类和人类区分开，需要实现类的继承关系，经理类继承自员工类，员工类继承自人类。</li><li>需要添加一个承包商类，承包商类继承自人类，因为承包商不是员工。</li><li>为了解决经理类既可以是承包商又可以是全职经理的问题，可以使用类的模板化（templatize）。</li><li>程序员应该采用压缩式编程思维，先将代码实现具体功能，再根据重复出现的模式提取出可重用的部分。</li><li>将重复代码提取为结构体或函数，以减少代码冗余和提高代码的可读性、可维护性和可扩展性。</li><li>编程应以过程为导向，对象是为了实现过程的重用而产生的构造物，而不是过程本身。</li><li>通过压缩式编程，代码变得更加简洁和易于理解，可以简化代码的设计和开发过程。</li></ul><p>总结：本文介绍了一种名为压缩导向编程的有效编码方法，通过重构代码、提取重复代码片段和使用函数来简化代码。这种方法强调简洁、可读性和可扩展性，相比过于追求对象导向编程的复杂方法更为实用。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://caseymuratori.com/blog_0015&quot;&gt;Semantic Compression&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这篇文章介绍了一种名为压缩导向编程的有效编码方法，通过重构代码、提取重复代码片段和使用函数来简化代码。这种方法强</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
-    
-    <category term="OOP" scheme="https://blog.aicoco.net/tags/OOP/"/>
     
   </entry>
   
