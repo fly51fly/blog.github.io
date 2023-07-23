@@ -120,15 +120,15 @@
     <link href="https://blog.aicoco.net/2023/07/22/why-did-meta-open-source-llama/"/>
     <id>https://blog.aicoco.net/2023/07/22/why-did-meta-open-source-llama/</id>
     <published>2023-07-22T00:40:27.000Z</published>
-    <updated>2023-07-22T00:57:39.175Z</updated>
+    <updated>2023-07-23T06:19:51.591Z</updated>
     
-    <content type="html"><![CDATA[<p>原文：<a href="https://matt-rickard.com/why-did-meta-open-source-llama">Why Did Meta Open-Source Llama 2?</a></p><p>讨论了Meta公司推出的商业开源模型Llama 2。该模型是基于之前的“仅限学术使用”的模型LLaMA的进一步发展，对任何能点击下载链接的人都是可用的。文中提出了Meta公司公开Llama 2模型权重的原因，主要包括：招聘、营销、推向市场（免费版或补充功能）、削弱竞争对手壁垒、 goodwill（增进美誉度）、标准游说等不同的战略用途。同时，文中也列出了将机器学习模型开源的四个具体原因。</p><p>通过分析Llama 2的许可证，有人推测Meta公司开源该模型的目标：削弱竞争对手的优势地位，尤其是对于那些拥有专有模型的公司，以及那些需要有机地建立自己受众群体的公司。此外，Meta公司还可能通过提供其他配套产品来推向市场，例如LLM技术在Instagram &#x2F; Threads &#x2F; Facebook等平台的应用，专门设计的芯片和数据中心，以及在PyTorch中使用的机器学习框架等。</p><p>总体来说，通过开源Llama 2，Meta公司有望在人工智能领域树立先进科技的形象，从而获得开发者、用户和媒体的好评。然而，这也是一个具有挑战性的过程，需要认真对待。</p><p>要点：</p><ul><li>Llama 2 是 Meta 推出的一个商业可用的开源模型，是基于之前的“仅限学术用途”的 LLaMA 模型的升级版。</li><li>Meta 为什么会将 Llama 2 的权重商业化？这需要进行深入的分析。</li><li>在《开源战略简明分类》中，对开源战略进行了七种不同的分类：招聘、营销、推向市场（补充性）、推向市场（免费层级）、削弱竞争对手的优势、善意和标准游说。</li><li>同样，在《为何开源一个模型？》中，针对机器学习模型列出了四个更具体的原因：拥有专有数据但没有足够的资源或专业知识、招募和留住顶级研究人员、销售硬件或云资源、没有分销但有突破性的见解。</li><li>通过对 Llama 2 的许可证进行分析，可以推测出 Meta 的目标。其中包括：不允许将 Llama 材料或其任何输出或结果用于改进其他大型语言模型（Llama 2 或其衍生作品除外）；对竞争对手施加限制，如果许可证持有者在版本发布后的前一个月内拥有超过 7 亿活跃用户，需要向 Meta 申请许可，并经 Meta 许可后才能行使本协议下的任何权利；保留品牌和营销权利。</li><li>通过框架、发布公告和许可证的分析，可以提出一些关于 Meta 开源 Llama 2 的假设：减弱竞争对手的优势，特别是那些拥有专有模型的公司，如 Google 和 OpenAI（以及 Microsoft）；采用免费层级或补充性推向市场策略，利用较小规模的 Llama 2 模型作为自助式的免费版本，吸引用户使用 Meta 提供的未来服务，比如庞大的模型或高度实时的在线服务；利用开源策略进行营销，打造一个以创新为核心的企业形象，类似于 Google 过去几十年建立的声誉。</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>原文：<a href="https://matt-rickard.com/why-did-meta-open-source-llama">Why Did Meta Open-Source Llama 2?</a></p><h4 id="对Meta开源Llama-2可能原因的一些猜想"><a href="#对Meta开源Llama-2可能原因的一些猜想" class="headerlink" title="对Meta开源Llama 2可能原因的一些猜想"></a>对Meta开源Llama 2可能原因的一些猜想</h4><h5 id="削弱竞争对手的优势："><a href="#削弱竞争对手的优势：" class="headerlink" title="削弱竞争对手的优势："></a>削弱竞争对手的优势：</h5><ul><li><p>Llama 2 对拥有专有模型的竞争对手，如Google和OpenAI(以及Microsoft的相关服务)，构成了挑战。通过开源大模型，可以<strong>削弱这些大公司在语言模型领域的优势</strong>。</p></li><li><p>作为身处服务栈需要<strong>持续吸引用户</strong>的公司，Meta坐拥数十亿固定用户，这使他们在竞争中占据优势。</p></li></ul><h5 id="市场推广策略的考虑："><a href="#市场推广策略的考虑：" class="headerlink" title="市场推广策略的考虑："></a>市场推广策略的考虑：</h5><ul><li><p>Llama 2提供不同参数大小的模型，包括7b、13b和70b。通过将较小的模型作为“免费版”自助选项，Meta可以吸引用户，并鼓励他们在未来<strong>选择Meta平台的更大或更新的版本</strong>。</p></li><li><p>Meta可能推出一系列与Llama 2<strong>相关的扩展产品</strong>，包括为Instagram、Threads或Facebook提供支持Llama的功能，特殊设计的硬件芯片和数据中心，以及在PyTorch中优化Llama衍生模型的机器学习框架。</p></li><li><p>此外，Meta未来可能推出<strong>托管服务作为商业化产品</strong>，其中将Llama 2作为基础组件。</p></li></ul><h5 id="市场营销和声誉建设："><a href="#市场营销和声誉建设：" class="headerlink" title="市场营销和声誉建设："></a>市场营销和声誉建设：</h5><ul><li>通过开源Llama 2并将自己定位为技术前沿的公司，Meta旨在<strong>建立强大的声誉</strong>。这样的声誉可以吸引开发者、用户和媒体的关注，类似于Google多年来的积极影响。</li></ul><p>总体而言，开源Llama 2的决定使得Meta可以挑战和削弱竞争对手，用自助免费模型吸引用户，在语言模型领域树立创新领先的公司形象。</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://matt-rickard.com/why-did-meta-open-source-llama&quot;&gt;Why Did Meta Open-Source Llama 2?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;讨论了Meta公司推出的商业开源模型Llama</summary>
+&lt;h4 id=&quot;对Meta开源Llama-2可能原因</summary>
       
     
     
