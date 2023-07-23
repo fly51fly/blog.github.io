@@ -459,14 +459,14 @@
     <link href="https://blog.aicoco.net/2023/06/26/script-vs-program/"/>
     <id>https://blog.aicoco.net/2023/06/26/script-vs-program/</id>
     <published>2023-06-26T12:34:04.000Z</published>
-    <updated>2023-06-28T12:42:11.416Z</updated>
+    <updated>2023-07-23T09:37:41.682Z</updated>
     
-    <content type="html"><![CDATA[<p>原文：<a href="https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/">Failing to draw lines between ‘script’ and ‘program’</a></p><p>近期有关于“脚本”与“程序”之间界限的讨论，但人们对于这两者之间的区别并没有明确的界定。有人认为编译语言中的东西总是“程序”，大型或复杂的东西也总是“程序”，即使是解释型语言中的单文件。然而，脚本可能更多地依赖于外部Unix程序而非内部组件。对于扩展其他程序的代码，也存在对于它们是“脚本”还是“程序”的争议。总的来说，计算机术语的界定是一个有趣但也复杂的问题。</p><p>要点：</p><ul><li>在Fediverse上，有人进行了有关“脚本”与“程序”之间界限的调查。</li><li>有人认为，编译语言中的东西总是“程序”，而解释语言中的一个单文件的大型或复杂的东西也总是“程序”。</li><li>“脚本”可能更多地依赖于外部的Unix程序，而不是内部的东西。</li><li>对于个人而言，即使是小型的Python代码，也会被称为“程序”，而不是“脚本”。</li><li>对于某些功能强大的Unix实用程序，人们对其是否为“程序”还是“脚本”存在争议。</li><li>有些事物被认为是“脚本”，而不是“程序”，即使它们包含了一些相对复杂的逻辑。</li><li>有关扩展其他程序的代码的编写也是一个辩论的重要领域。</li><li>总的来说，计算机术语是有趣的，有一种特定的乐趣。</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>原文：<a href="https://utcc.utoronto.ca/~cks/space/blog/programming/ScriptVersusProgram">Failing to draw lines between ‘script’ and ‘program’</a></p><h3 id="Unix脚本与程序：关于术语的辩论"><a href="#Unix脚本与程序：关于术语的辩论" class="headerlink" title="Unix脚本与程序：关于术语的辩论"></a>Unix脚本与程序：关于术语的辩论</h3><p>本文讨论了在Unix环境中关于“script”（脚本）和“program”（程序）的术语辩论。投票者提出了一些模糊的观点，并提供了一些实践中的思考。</p><h4 id="投票结果和模糊观点"><a href="#投票结果和模糊观点" class="headerlink" title="投票结果和模糊观点"></a>投票结果和模糊观点</h4><ul><li>投票中，有人选择了“complex&#x2F;simple”（复杂&#x2F;简单），但他认为这个问题在实践中更为复杂。</li><li>他认为，对于编译语言，无论大小或复杂程度，都应称之为“program”（程序），即使是单文件的解释语言也是如此。</li><li>他认为，“script”与Unix的“#!行和解释器”问题无关，这只是一个技术问题，有时候可能并不重要。</li></ul><h4 id="对“script”和“program”的不同理解"><a href="#对“script”和“program”的不同理解" class="headerlink" title="对“script”和“program”的不同理解"></a>对“script”和“program”的不同理解</h4><ul><li>有时他将shell脚本（无论是Bourne shell还是其他Shell）称为“script”，而将其他语言的内容称为“program”。</li><li>他对复杂的sed块是“script”还是“program”并没有明确的答案。</li><li>对于报告Linux cgroup内存使用情况的Bourne shell脚本，他认为它是“script”，但用Python进行重写后则是“program”。</li></ul><h4 id="对扩展其他程序的代码的看法"><a href="#对扩展其他程序的代码的看法" class="headerlink" title="对扩展其他程序的代码的看法"></a>对扩展其他程序的代码的看法</h4><ul><li>Emacs Lisp的内容可能是“script”、“program”或其他术语，Emacs用户可能有自己的术语。</li><li>Vim的“script”语言用于编写插件，对于用它编写的内容，他不确定人们是否称之为“script”。</li></ul><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>在Unix社区中，关于“script”和“program”的术语使用存在辩论。对于一些人来说，用shell编写的内容可能被称为“script”，而其他语言的内容则被称为“program”。而扩展其他程序的代码可能被认为是不同于“script”的内容。这个术语辩论可能因个人经验和偏好而异，因此没有明确的标准定义。</p><p>（计算机术语的多样性确实让人觉得有趣。）</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/&quot;&gt;Failing to draw lines between ‘script’ and ‘p</summary>
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://utcc.utoronto.ca/~cks/space/blog/programming/ScriptVersusProgram&quot;&gt;Failing to draw lines between ‘script’ and ‘program</summary>
       
     
     
