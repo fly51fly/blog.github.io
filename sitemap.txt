@@ -1,3 +1,4 @@
+https://blog.aicoco.net/2023/06/20/chatgpt/
 https://blog.aicoco.net/2023/07/23/differences-between-human-and-ai/
 https://blog.aicoco.net/2023/07/23/effects-of-more-params/
 https://blog.aicoco.net/2023/07/23/can-ai-displace-doctor/
@@ -13,7 +14,6 @@ https://blog.aicoco.net/2023/07/22/use-ai-to-train-ai/
 https://blog.aicoco.net/google7db268adce4168b3.html
 https://blog.aicoco.net/2023/06/28/Can-academia-compete-with-the-resources-of-industry/
 https://blog.aicoco.net/2023/06/26/Generating_SQL_with_LLMs_for_fun_and_profit/
-https://blog.aicoco.net/2023/06/20/chatgpt/
 https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/
 https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/
 https://blog.aicoco.net/2023/06/26/script-vs-program/
@@ -33,14 +33,14 @@ https://blog.aicoco.net/tags/Engineering/
 https://blog.aicoco.net/tags/Learning/
 https://blog.aicoco.net/tags/Academic/
 https://blog.aicoco.net/tags/Data/
-https://blog.aicoco.net/tags/Agent/
-https://blog.aicoco.net/tags/ChatGPT/
 https://blog.aicoco.net/tags/IQ/
 https://blog.aicoco.net/tags/Intelligence/
+https://blog.aicoco.net/tags/Agent/
+https://blog.aicoco.net/tags/ChatGPT/
 https://blog.aicoco.net/tags/Chatbot/
 https://blog.aicoco.net/tags/Leaderboard/
 https://blog.aicoco.net/tags/Programming/
 https://blog.aicoco.net/tags/OOP/
 https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/
-https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/
 https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/
+https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/
