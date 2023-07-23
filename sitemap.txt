@@ -1,3 +1,4 @@
+https://blog.aicoco.net/2023/07/23/can-ai-displace-doctor/
 https://blog.aicoco.net/2023/06/29/How-to-make-your-scientific-data-accessible-discoverable-and-useful/
 https://blog.aicoco.net/2023/07/05/4_tips_for_programmers_to_stay_ahead_of_generative_AI/
 https://blog.aicoco.net/2023/07/06/AI_weights_are_not_open_source/
@@ -22,9 +23,9 @@ https://blog.aicoco.net/2023/06/25/semantic-compression/
 https://blog.aicoco.net/
 https://blog.aicoco.net/tags/AIGC/
 https://blog.aicoco.net/tags/LLM/
+https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/SQL/
 https://blog.aicoco.net/tags/programming/
-https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/AI/
 https://blog.aicoco.net/tags/Engineering/
 https://blog.aicoco.net/tags/Learning/
@@ -32,12 +33,12 @@ https://blog.aicoco.net/tags/Academic/
 https://blog.aicoco.net/tags/Data/
 https://blog.aicoco.net/tags/Agent/
 https://blog.aicoco.net/tags/ChatGPT/
-https://blog.aicoco.net/tags/Chatbot/
 https://blog.aicoco.net/tags/IQ/
 https://blog.aicoco.net/tags/Intelligence/
-https://blog.aicoco.net/tags/Programming/
+https://blog.aicoco.net/tags/Chatbot/
 https://blog.aicoco.net/tags/Leaderboard/
+https://blog.aicoco.net/tags/Programming/
 https://blog.aicoco.net/tags/OOP/
 https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/
-https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/
 https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/
+https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/

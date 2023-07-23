@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-23T05:32:45.279Z</updated>
+  <updated>2023-07-23T06:47:32.509Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>医疗AI会取代人类医生吗？</title>
+    <link href="https://blog.aicoco.net/2023/07/23/can-ai-displace-doctor/"/>
+    <id>https://blog.aicoco.net/2023/07/23/can-ai-displace-doctor/</id>
+    <published>2023-07-23T06:42:24.000Z</published>
+    <updated>2023-07-23T06:47:32.509Z</updated>
+    
+    <content type="html"><![CDATA[<p>医疗除了技术问题以外，也许更重要的，会<strong>涉及对人类情感的理解和关怀</strong>。尽管AI能处理大量数据，但其在理解人类情绪和个体经历方面有限。这对处理如慢性病管理和心理健康问题等多元健康问题显得尤为重要。</p><p>每个病人都是独特的，需要全面、个性化和富有同情心的医疗服务，也就是<strong>个性化的诊疗服务</strong>。尽管AI能有效处理和分析大量信息，但其决策基于已有数据和已知规则，对新颖和独特的情况可能无法有效应对。</p><p>AI系统的构建需要包含更多<strong>多样化的经验、观点和专业知识</strong>。AI在识别模式和提供预测方面有巨大潜力，但也可能受到训练数据中固有偏见的影响，这可能导致不准确的诊断。</p><p>医疗决策不仅需要疾病和治疗的专业知识，还需要理解和考虑病人的需求和偏好，以及其他诸多因素。这一决策过程中的<strong>灵活性和人性化</strong>是AI难以实现的。</p><p>尽管AI在医学考试等基准测试上的表现已经超过了人类医生，但其<strong>在处理真实世界的复杂和模糊问题方面可能存在局限</strong>。然而，作为医生的辅助工具，AI具有巨大的潜力，可以帮助医生提高效率，减少错误。</p><p>在医疗领域，建立患者对医生的<strong>信任是至关重要的</strong>，这是AI可能需要投入更多时间和努力去实现的。此外，当出现医疗纠纷时，AI系统<strong>如何定责</strong>也是一个复杂且未解决的问题。</p><p>总而言之，现阶段的医疗AI更适合作为医生的辅助工具，而不是完全替代他们。它们可以帮助处理大量的数据和信息，提高医生的效率，尤其是在我国医疗资源下沉、社区化医疗的大背景下，但在理解和处理病人的全人性需求，以及在人性化的医疗决策方面，人类医生的作用仍然不可替代。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;医疗除了技术问题以外，也许更重要的，会&lt;strong&gt;涉及对人类情感的理解和关怀&lt;/strong&gt;。尽管AI能处理大量数据，但其在理解人类情绪和个体经历方面有限。这对处理如慢性病管理和心理健康问题等多元健康问题显得尤为重要。&lt;/p&gt;
+&lt;p&gt;每个病人都是独特的，需要全面、个性</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+    <category term="AI" scheme="https://blog.aicoco.net/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>最重要的编程习惯</title>
@@ -505,34 +532,6 @@
     <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
     
     <category term="OOP" scheme="https://blog.aicoco.net/tags/OOP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ChatGPT类服务汇总</title>
-    <link href="https://blog.aicoco.net/2023/06/20/chatgpt/"/>
-    <id>https://blog.aicoco.net/2023/06/20/chatgpt/</id>
-    <published>2023-06-20T13:05:41.000Z</published>
-    <updated>2023-06-28T22:32:14.046Z</updated>
-    
-    <content type="html"><![CDATA[<p>ChatGPT是由OpenAI开发的大型语言模型，可以理解和生成人类语言，具备生成连贯和上下文相关的回复的能力。</p><p>这类服务的主要目的是通过自然语言处理和对话系统技术，为用户提供智能对话和信息交流的能力。以下是ChatGPT类服务可能提供的功能和用途：</p><ol><li><p>聊天机器人：ChatGPT类服务可以用作聊天机器人，与用户进行实时对话。用户可以提问问题、请求帮助、寻求建议，而ChatGPT将根据其训练的知识和上下文生成回复。</p></li><li><p>客户支持：许多公司和组织使用ChatGPT类服务来提供在线客户支持。用户可以通过对话框与机器人代表进行交流，寻求帮助、解决问题或获得产品或服务的相关信息。</p></li><li><p>智能助手：ChatGPT类服务可以用作个人助手应用程序的一部分，帮助用户管理日常任务、提供实用信息、制定行程或提供娱乐建议等。它可以根据用户的指令和上下文提供个性化的回复和服务。</p></li><li><p>教育辅助：ChatGPT类服务可以在教育领域用作学习辅助工具。学生可以向ChatGPT提问问题、请求解释或寻求学习建议。它可以提供参考资料、解答问题或引导学生进行学术研究。</p></li><li><p>娱乐和游戏：ChatGPT类服务可以用于创建有趣的娱乐和游戏体验。例如，它可以扮演虚拟角色，与用户进行角色扮演游戏，或参与有趣的智力游戏和谜题。</p></li></ol><p>需要注意的是，ChatGPT类服务的功能和用途可能因具体应用程序或平台而异。不同的开发人员和组织可以根据其需求和目标，结合ChatGPT模型的能力来设计和定制各种对话系统应用。</p><h3 id="ChatGPT类服务汇总："><a href="#ChatGPT类服务汇总：" class="headerlink" title="ChatGPT类服务汇总："></a>ChatGPT类服务汇总：</h3><h5 id="无需注册"><a href="#无需注册" class="headerlink" title="无需注册"></a>无需注册</h5><ul><li><a href="https://bard.google.com/">Bard</a> (web-browsing)</li><li><a href="https://vitalentum.net/free-gpt">Vitalentum</a></li><li><a href="https://ora.ai/chatbot-master/openai-chatgpt-chatbot">OraChat</a></li><li><a href="https://chat.lmsys.org/">Vicuna</a></li><li><a href="https://gptgo.ai/">GPTGO</a> (web-browsing)</li><li><a href="https://anonchatgpt.com/">AnonChatGPT</a></li><li><a href="https://www.perplexity.ai/">Perplexity AI</a> (web-browsing)</li><li><a href="https://noowai.com/">NoowAI</a></li><li><a href="https://beta.character.ai/">Character AI</a></li><li><a href="https://chatbot.theb.ai/">BAI Chat</a></li><li><a href="https://iask.ai/">iAsk AI</a> (web-browsing)</li><li><a href="https://www.phind.com/">Phind AI</a> (web-browsing)</li><li><a href="https://gpt4all.io/index.html">GPT4All</a> (open-source)</li><li><a href="https://deepai.org/chat">DeepAI Chat</a></li><li><a href="https://www.teach-anything.com/">Teach Anything</a></li><li><a href="https://huggingface.co/chat">HuggingChat</a> (web-browsing)</li><li><a href="https://chat.forefront.ai/">Forefront AI</a></li></ul><h5 id="需要注册"><a href="#需要注册" class="headerlink" title="需要注册"></a>需要注册</h5><ul><li><a href="https://poe.com/ChatGPT">Poe AI</a></li><li><a href="https://easy-peasy.ai/">Easy-Peasy AI</a></li><li><a href="https://app.writesonic.com/chat">WriteSonic</a></li><li><a href="https://www.sincode.ai/">Sincode AI</a></li><li><a href="https://ai.ls/">AI.LS</a></li><li><a href="https://letsview.com/chatbot">LetsView Chat</a> (only 10 messages allowed)</li><li><a href="https://chat.capeprivacy.com/">CapeChat</a></li><li><a href="https://open-assistant.io/">Open-Assistant</a> (open-source)</li><li><a href="https://www.globalgpt.nspiketech.com/">GlobalGPT</a></li><li><a href="https://bing.com/chat">Bing Chat</a></li><li><a href="https://www.jimmygpt.com/">JimmyGPT</a></li><li><a href="https://codeium.com/">Codeium</a> (mainly for coding)</li><li><a href="https://you.com/chat">YouChat</a></li><li><a href="https://franks.ai/">Frank AI</a></li><li><a href="https://platform.openai.com/playground">OpenAI Playground</a></li></ul><h5 id="博客文章写作助手"><a href="#博客文章写作助手" class="headerlink" title="博客文章写作助手"></a>博客文章写作助手</h5><ul><li><a href="https://app.copy.ai/">Copy AI</a></li><li><a href="https://app.textcortex.com/">TextCortex AI</a></li><li><a href="https://app.marmof.com/">Marmof</a></li><li><a href="https://app.hyperwriteai.com/chatbot">HyperWrite</a></li><li><a href="https://app.writerx.co/">WriterX</a></li></ul><h5 id="文档-PDF等-聊天机器人"><a href="#文档-PDF等-聊天机器人" class="headerlink" title="文档(PDF等)聊天机器人"></a>文档(PDF等)聊天机器人</h5><ul><li><a href="https://www.anysummary.app/">AnySummary</a> (3 per day)</li><li><a href="https://app.sharly.ai/">Sharly AI</a></li><li><a href="https://chatdoc.com/">ChatDOC</a></li><li><a href="https://app.humata.ai/">Humata AI</a></li><li><a href="https://askyourpdf.com/">Ask Your PDF</a></li><li><a href="https://www.chatpdf.com/">ChatPDF</a></li><li><a href="https://filegpt.app/chat">FileGPT</a></li><li><a href="https://www.researchaide.org/">ResearchAide</a></li><li><a href="https://pensieve-app.springworks.in/">Pensieve AI</a></li><li><a href="https://www.pdfgpt.io/">PDFGPT.IO</a></li><li><a href="https://docalysis.com/">Docalysis</a></li></ul><h5 id="个人助理聊天机器人"><a href="#个人助理聊天机器人" class="headerlink" title="个人助理聊天机器人"></a>个人助理聊天机器人</h5><ul><li><a href="https://heypi.com/talk">Pi, your personal AI</a></li><li><a href="https://chat.kuki.ai/">Kuki AI</a></li><li><a href="https://replika.com/">Replika</a></li><li><a href="https://yourhana.ai/">YourHana AI</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;ChatGPT是由OpenAI开发的大型语言模型，可以理解和生成人类语言，具备生成连贯和上下文相关的回复的能力。&lt;/p&gt;
-&lt;p&gt;这类服务的主要目的是通过自然语言处理和对话系统技术，为用户提供智能对话和信息交流的能力。以下是ChatGPT类服务可能提供的功能和用途：&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="资源" scheme="https://blog.aicoco.net/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
     
   </entry>
   
