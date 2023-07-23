@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-22T14:09:36.821Z</updated>
+  <updated>2023-07-23T05:32:45.279Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最重要的编程习惯</title>
+    <link href="https://blog.aicoco.net/2023/07/23/healthy-coding-habits/"/>
+    <id>https://blog.aicoco.net/2023/07/23/healthy-coding-habits/</id>
+    <published>2023-07-23T05:25:13.000Z</published>
+    <updated>2023-07-23T05:32:45.279Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://puppycoding.com/2023/07/22/healthy-coding-habits/">The Most Important Coding Habits</a></p><p>作者在康复期躺着写下这篇文章，因为腰椎间盘突出导致了滑脱症状。他通过自己的痛苦体会认识到，最重要的编程习惯并不是代码的可读性、一致性、组织结构等方面，而是那些让我们能在未来数十年继续享受编程乐趣的习惯。</p><p>文章提到了几个重要的编程习惯，以避免因长时间久坐在键盘前而导致的健康问题：</p><ul><li><p>每日伸展：定期进行腹部和大腿肌肉的伸展运动，即使不是瑜伽爱好者，也可以在早晨或热水浴后进行，使肌肉更柔软，更有助于支撑身体。</p></li><li><p>定期休息：至少每隔一个小时起身走一走，或离开屏幕进行其他活动，不仅对身体有好处，而且对编程也有帮助。经常会有这样的情况，当你卡在一个问题上时，换下思路，回来重新尝试，往往可能会有新的灵感。</p></li><li><p>不要在深夜编程：避免熬夜编程，疲劳时编写的代码会质量较差，甚至有害，而且容易导致长时间低头弯腰，对身体造成不利影响。设定一个截止时间，坚持下来。</p></li><li><p>改善编程环境：优化编程环境，例如使用笔记本电脑支架和人体工学椅子，但即使有这些设备，仍然可能出现腰背疼痛。作者在文章中提到听说很多推荐站立式办公桌，现在也开始尝试。他认为，站立式办公桌不仅可以提高活动度，还能促进更多的休息，是一个双重受益的习惯。</p></li></ul><p>总之，这篇文章提醒了程序员要重视健康，特别是在长期编程的过程中，不良的习惯可能导致身体健康问题。通过每日伸展、定期休息、避免深夜编程和改善编程环境等习惯，可以减少对身体的伤害，享受健康的编程生涯。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://puppycoding.com/2023/07/22/healthy-coding-habits/&quot;&gt;The Most Important Coding Habits&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者在康复期躺着写下这篇文章，因为腰椎间盘突</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="Programming" scheme="https://blog.aicoco.net/tags/Programming/"/>
+    
+  </entry>
   
   <entry>
     <title>用AI生成数据训练AI会有问题吗？</title>
