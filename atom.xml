@@ -370,9 +370,9 @@
     
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
-    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
-    
     <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
+    
+    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
     
   </entry>
   
@@ -483,7 +483,7 @@
     <link href="https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/"/>
     <id>https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/</id>
     <published>2023-06-26T09:18:01.000Z</published>
-    <updated>2023-06-28T12:42:45.899Z</updated>
+    <updated>2023-07-23T09:29:46.785Z</updated>
     
     <content type="html"><![CDATA[<p>原文：<a href="https://news.ycombinator.com/item?id=36432598">Ask HN: How to Break into AI Engineering</a></p><p>文章提到了学习AI工程所需的技能和知识的一些资源，包括数学基础、统计学、Python编程、IBM数据科学专业证书、机器学习和深度学习专业课程等。还讨论了数学在软件工程师中的重要性以及AI工程的发展趋势。</p><p>要点：</p><ul><li>要成为AI工程师，需要有扎实的数学基础，尤其是微积分和线性代数。</li><li>需要掌握统计学的语言和基本概念。</li><li>学习Python编程语言，掌握PyTorch。</li><li>推荐学习资源包括IBM Data Science Professional Certificate、Oliver Theobald的《Machine Learning for Absolute Beginners》、Andrew Ng的Coursera课程（包括《Machine Learning Specialization》和《Deep Learning Specialization》）以及fast.ai课程。</li><li>在选择AI领域的方向时，可以考虑自然语言处理（NLProc）、视觉处理（Vision）、强化学习（RL）等。</li><li>如果想在大型科技公司找工作，需要准备Leetcode面试、学习系统设计和机器学习系统的设计，还可以参考Chip Huyen的相关书籍。</li><li>数学在软件工程师中可能变得更加重要，因为AI在软件开发生命周期中的应用越来越广泛。</li><li>AI工程师的角色可以分为专注于模型改进、优化模型性能以及将模型应用于大型应用程序的不同方面。</li><li>学习数据清洗、数据标注和训练算法的基本过程非常重要，这些内容常常被忽视和低估。</li><li>AI工程师可以选择从数据工程入门，然后再专注于AI领域的特定方向。</li><li>AI工程师不仅需要技术知识，还需要与科学、数学等领域的知识相结合，可以结合自己的专业背景和兴趣选择方向。</li><li>AI工程师的角色可以是数据工程师的一种特殊化，不一定需要成为数学专家，但需要扎实的工程和数据处理能力。</li><li>AI工程师可以选择从事机器学习工程、数据工程和运维方面的工作，也可以选择研究工作，但后者通常需要更高的学历和数学基础。</li><li>了解数据工程的发展历程可以对AI工程师的角色有所启示，从中可以看到AI工程师可能在软件工程和AI领域之间进行工作。</li><li>AI工程师需要不断学习和尝试，掌握最新的技术和工具，并将其应用于实际项目中。</li><li>可以借助ChatGPT等工具来获取学习和编码的帮助，但仍需要自己进行实践和验证。</li><li>AI工程师的发展可能因不同的公司和行业而异，需要根据实际情况进行选择和发展。</li></ul>]]></content>
     
@@ -512,9 +512,9 @@
     <link href="https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/"/>
     <id>https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/</id>
     <published>2023-06-26T08:06:17.000Z</published>
-    <updated>2023-06-28T12:43:39.266Z</updated>
+    <updated>2023-07-23T09:24:58.168Z</updated>
     
-    <content type="html"><![CDATA[<p>原文：<a href="https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/">Intelligent people take longer to solve hard problems</a></p><p>高智力者解决难题更慢？新研究揭示速度并非决定因素。智力与大脑连接和同步有关。速度和准确性之间存在权衡。</p><p>心理学家仍在努力定义智力，对智力测试的有效性存在质疑。高智力得分通常与更快的信息处理速度相关，但德国研究显示这可能不完全正确。研究表明，高智力得分者在解决复杂问题时需要更长时间，因为他们更不容易草率下结论。大脑连接和同步差异与问题解决能力相关。结果挑战了高智力与大脑更快有关的假设，速度和准确性之间存在权衡，慢而费力、更长时间整合信息的认知方式可能更适用于解决更困难的问题。</p><p>要点：</p><ul><li>心理学家仍在努力定义智力，对于测试智力的有效性也存在质疑。</li><li>高智力得分与更快的信息处理或“思维速度”有关，但一项德国研究表明，这可能不是完全正确的。</li><li>研究发现，高智力得分的人在解决复杂问题时需要更长的时间，因为他们更不容易草率下结论。</li><li>研究还将解决问题的能力与大脑连接性和不同脑区之间的同步联系起来。</li><li>大脑扫描研究表明，智力涉及前额顶叶和顶叶之间的网络，因此这些脑区之间的更高同步可能反映了一种调节顶叶处理的前额注意机制。</li><li>研究结果挑战了高智力是大脑更快的结果的假设，表明速度并不一定更好，在某些情况下，速度和准确性之间存在权衡，从而导致更好的决策。</li><li>对于简单任务，快速的“自动”思维足够做出决策，而在解决更困难的问题时，一种更缓慢、更费力的认知方式可能更好，它支持对相关信息的长时间整合。</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>原文：<a href="https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/">Intelligent people take longer to solve hard problems</a></p><h3 id="智力高的人在解决难题时需要更长的时间"><a href="#智力高的人在解决难题时需要更长的时间" class="headerlink" title="智力高的人在解决难题时需要更长的时间"></a>智力高的人在解决难题时需要更长的时间</h3><p>一项新研究挑战了高智商与信息处理速度快的信念，揭示了解决问题能力与大脑连接性和额叶与顶叶之间同步的关联。研究结果表明，在认知过程中速度和准确性之间存在权衡，强调了在解决困难问题和做出更好决策时较慢和更费力思考的重要性。</p><h4 id="1-智力高的人解决复杂问题需要更长时间"><a href="#1-智力高的人解决复杂问题需要更长时间" class="headerlink" title="1. 智力高的人解决复杂问题需要更长时间"></a>1. 智力高的人解决复杂问题需要更长时间</h4><p>德国研究人员在《Nature Communications》杂志上发表的这项研究表明，智力得分较高的人解决复杂问题需要更长时间，因为他们不太可能草率下结论。研究还将问题解决能力与大脑区域之间的连接性和同步性联系起来。</p><h4 id="2-大脑区域之间的连接性与智力得分相关"><a href="#2-大脑区域之间的连接性与智力得分相关" class="headerlink" title="2. 大脑区域之间的连接性与智力得分相关"></a>2. 大脑区域之间的连接性与智力得分相关</h4><p>研究人员分析了1176名“人类连接组计划”参与者的数据，研究了智力得分与宾州矩阵推理测试反应时间之间的关系。结果显示，智力得分较高的人解决简单问题的速度较快，但在解决复杂问题时需要更长时间，这似乎是因为他们在达到正确解决方案之前花更多时间推断隐藏的规则。</p><h4 id="3-大脑额叶和顶叶之间的连接性与同步性"><a href="#3-大脑额叶和顶叶之间的连接性与同步性" class="headerlink" title="3. 大脑额叶和顶叶之间的连接性与同步性"></a>3. 大脑额叶和顶叶之间的连接性与同步性</h4><p>接下来，研究人员通过将每个人的大脑连接性数据与决策和工作记忆的神经回路的一般模型相结合，生成了650名参与者的个性化大脑网络模型。这显示出在解决复杂任务时需要更长时间的人，额叶和顶叶之间的静息状态连接性更高，并且这些大脑区域之间的同步性更强。</p><h4 id="4-智力高并不意味着大脑速度更快"><a href="#4-智力高并不意味着大脑速度更快" class="headerlink" title="4. 智力高并不意味着大脑速度更快"></a>4. 智力高并不意味着大脑速度更快</h4><p>这些发现挑战了高智商是大脑反应速度更快的假设。结果表明，更快并不一定更好，在某些情况下，在速度和准确性之间存在权衡，从而导致更好的决策。</p><h4 id="5-在解决难题时，较慢和更费力的思考更有效"><a href="#5-在解决难题时，较慢和更费力的思考更有效" class="headerlink" title="5. 在解决难题时，较慢和更费力的思考更有效"></a>5. 在解决难题时，较慢和更费力的思考更有效</h4><p>研究显示，对于简单任务的决策，快速的“自动”思考是足够的，但在解决更困难的问题时，较慢和更费力的认知方式更好，它支持对相关信息的持久整合。</p>]]></content>
     
     
       
