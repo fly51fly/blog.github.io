@@ -1,3 +1,4 @@
+https://blog.aicoco.net/2023/07/24/teach-your-llm-vector-sql/
 https://blog.aicoco.net/2023/06/27/The_Curious_Case_of_LLM_Evaluations/
 https://blog.aicoco.net/2023/06/26/script-vs-program/
 https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/
@@ -24,15 +25,15 @@ https://blog.aicoco.net/2023/06/28/LLM-based-Chatbot-to-query-Private-Knowledge-
 https://blog.aicoco.net/2023/06/25/semantic-compression/
 https://blog.aicoco.net/
 https://blog.aicoco.net/tags/LLM/
+https://blog.aicoco.net/tags/AIGC/
+https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/SQL/
 https://blog.aicoco.net/tags/programming/
-https://blog.aicoco.net/tags/Research/
 https://blog.aicoco.net/tags/AI/
 https://blog.aicoco.net/tags/Engineering/
 https://blog.aicoco.net/tags/Learning/
 https://blog.aicoco.net/tags/Academic/
 https://blog.aicoco.net/tags/Data/
-https://blog.aicoco.net/tags/AIGC/
 https://blog.aicoco.net/tags/IQ/
 https://blog.aicoco.net/tags/Intelligence/
 https://blog.aicoco.net/tags/Agent/

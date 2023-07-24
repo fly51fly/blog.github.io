@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-23T07:01:30.071Z</updated>
+  <updated>2023-07-24T13:23:13.757Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>让LLM总是用事实而不是虚构来回答问题</title>
+    <link href="https://blog.aicoco.net/2023/07/24/teach-your-llm-vector-sql/"/>
+    <id>https://blog.aicoco.net/2023/07/24/teach-your-llm-vector-sql/</id>
+    <published>2023-07-24T13:08:31.000Z</published>
+    <updated>2023-07-24T13:23:13.757Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://blog.myscale.com/2023/07/17/teach-your-llm-vector-sql/">Teach your LLM to always answer with facts not fiction</a></p><h3 id="LLM幻觉与使用Vector-SQL减少幻觉"><a href="#LLM幻觉与使用Vector-SQL减少幻觉" class="headerlink" title="LLM幻觉与使用Vector SQL减少幻觉"></a>LLM幻觉与使用Vector SQL减少幻觉</h3><h4 id="主要信息"><a href="#主要信息" class="headerlink" title="主要信息"></a>主要信息</h4><ul><li>LLM（Large Language Model）是一种高级AI系统，可以回答广泛范围的问题，但在陌生话题上可能出现幻觉现象。</li><li>幻觉是指在缺乏外部刺激的情况下，产生具有真实感知质量的感知错误。</li><li>增加外部知识可以减少LLM幻觉的出现。</li><li>使用Vector SQL可以实现精细粒度的向量搜索，从而提高LLM回答问题的准确性和效率。</li></ul><h4 id="详细重点内容"><a href="#详细重点内容" class="headerlink" title="详细重点内容"></a>详细重点内容</h4><h5 id="LLM幻觉与外部知识"><a href="#LLM幻觉与外部知识" class="headerlink" title="LLM幻觉与外部知识"></a>LLM幻觉与外部知识</h5><ul><li>LLM并不是无懈可击的，可能在陌生话题上产生幻觉。为了减少幻觉，应加入外部知识，以指导LLM向准确和正确的回答迈进。</li><li>外部知识可以来自搜索引擎、数字图书馆等多个来源，并应与问题相关。</li></ul><h5 id="向量SQL与复杂搜索查询"><a href="#向量SQL与复杂搜索查询" class="headerlink" title="向量SQL与复杂搜索查询"></a>向量SQL与复杂搜索查询</h5><ul><li>向量SQL是一种强大的工具，用于构建复杂的搜索查询，它支持多种数据类型和函数。</li><li>向量SQL可以与SQL数据库集成，通过精细粒度的向量搜索提供准确的答案。</li><li>向量SQL的优势包括增加灵活性、提高效率、易于学习以及对LLM友好。</li></ul><h5 id="使用Vector-SQL自动化整个过程"><a href="#使用Vector-SQL自动化整个过程" class="headerlink" title="使用Vector SQL自动化整个过程"></a>使用Vector SQL自动化整个过程</h5><ul><li>LLM可以学习从其数据源中查询数据，并使用SQL查询来自动化整个回答过程。</li><li>向量SQL的使用将为复杂搜索查询带来许多好处，并为LLM提供高效准确的回答。</li></ul><h5 id="MyScale和其他数据库解决方案"><a href="#MyScale和其他数据库解决方案" class="headerlink" title="MyScale和其他数据库解决方案"></a>MyScale和其他数据库解决方案</h5><ul><li>MyScale等数据库解决方案正在将向量搜索集成到其功能中，从而提供更强大的搜索和回答能力。</li><li>同时，越来越多的应用开发人员开始在他们的应用程序中使用向量搜索和SQL，以利用LLM的优势。</li></ul><h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><ul><li>LLM幻觉在现实中是普遍存在的。减少幻觉的最实用方法是在问题中添加外部知识，以实现高效准确的回答。</li><li>向量SQL是一种强大的工具，可以帮助构建复杂的搜索查询，提高LLM回答问题的准确性和效率。</li><li>通过使用MyScale等数据库解决方案，向量搜索正在成为越来越受欢迎的工具，为LLM系统提供更强大的搜索和回答能力。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://blog.myscale.com/2023/07/17/teach-your-llm-vector-sql/&quot;&gt;Teach your LLM to always answer with facts not fiction&lt;/a&gt;&lt;/p</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+    <category term="SQL" scheme="https://blog.aicoco.net/tags/SQL/"/>
+    
+  </entry>
   
   <entry>
     <title>人和大模型之间最大的差距</title>
@@ -504,32 +530,6 @@
     <category term="Engineering" scheme="https://blog.aicoco.net/tags/Engineering/"/>
     
     <category term="Learning" scheme="https://blog.aicoco.net/tags/Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>聪明人解决难题可能更慢</title>
-    <link href="https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/"/>
-    <id>https://blog.aicoco.net/2023/06/26/Intelligent-people-take-longer-to-solve-hard-problems/</id>
-    <published>2023-06-26T08:06:17.000Z</published>
-    <updated>2023-07-23T09:30:33.152Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/">Intelligent people take longer to solve hard problems</a></p><h3 id="智力高的人在解决难题时需要更长的时间"><a href="#智力高的人在解决难题时需要更长的时间" class="headerlink" title="智力高的人在解决难题时需要更长的时间"></a>智力高的人在解决难题时需要更长的时间</h3><p>一项新研究挑战了高智商与信息处理速度快的信念，揭示了解决问题能力与大脑连接性和额叶与顶叶之间同步的关联。研究结果表明，在认知过程中速度和准确性之间存在权衡，强调了在解决困难问题和做出更好决策时较慢和更费力思考的重要性。</p><h4 id="1-智力高的人解决复杂问题需要更长时间"><a href="#1-智力高的人解决复杂问题需要更长时间" class="headerlink" title="1. 智力高的人解决复杂问题需要更长时间"></a>1. 智力高的人解决复杂问题需要更长时间</h4><p>德国研究人员在《Nature Communications》杂志上发表的这项研究表明，智力得分较高的人解决复杂问题需要更长时间，因为他们不太可能草率下结论。研究还将问题解决能力与大脑区域之间的连接性和同步性联系起来。</p><h4 id="2-大脑区域之间的连接性与智力得分相关"><a href="#2-大脑区域之间的连接性与智力得分相关" class="headerlink" title="2. 大脑区域之间的连接性与智力得分相关"></a>2. 大脑区域之间的连接性与智力得分相关</h4><p>研究人员分析了1176名“人类连接组计划”参与者的数据，研究了智力得分与宾州矩阵推理测试反应时间之间的关系。结果显示，智力得分较高的人解决简单问题的速度较快，但在解决复杂问题时需要更长时间，这似乎是因为他们在达到正确解决方案之前花更多时间推断隐藏的规则。</p><h4 id="3-大脑额叶和顶叶之间的连接性与同步性"><a href="#3-大脑额叶和顶叶之间的连接性与同步性" class="headerlink" title="3. 大脑额叶和顶叶之间的连接性与同步性"></a>3. 大脑额叶和顶叶之间的连接性与同步性</h4><p>接下来，研究人员通过将每个人的大脑连接性数据与决策和工作记忆的神经回路的一般模型相结合，生成了650名参与者的个性化大脑网络模型。这显示出在解决复杂任务时需要更长时间的人，额叶和顶叶之间的静息状态连接性更高，并且这些大脑区域之间的同步性更强。</p><h4 id="4-智力高并不意味着大脑速度更快"><a href="#4-智力高并不意味着大脑速度更快" class="headerlink" title="4. 智力高并不意味着大脑速度更快"></a>4. 智力高并不意味着大脑速度更快</h4><p>这些发现挑战了高智商是大脑反应速度更快的假设。结果表明，更快并不一定更好，在某些情况下，在速度和准确性之间存在权衡，从而导致更好的决策。</p><h4 id="5-在解决难题时，较慢和更费力的思考更有效"><a href="#5-在解决难题时，较慢和更费力的思考更有效" class="headerlink" title="5. 在解决难题时，较慢和更费力的思考更有效"></a>5. 在解决难题时，较慢和更费力的思考更有效</h4><p>研究显示，对于简单任务的决策，快速的“自动”思考是足够的，但在解决更困难的问题时，较慢和更费力的认知方式更好，它支持对相关信息的持久整合。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://bigthink.com/neuropsych/intelligent-people-slower-solve-hard-problems/&quot;&gt;Intelligent people take longer to solve hard </summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="IQ" scheme="https://blog.aicoco.net/tags/IQ/"/>
-    
-    <category term="Intelligence" scheme="https://blog.aicoco.net/tags/Intelligence/"/>
     
   </entry>
   
