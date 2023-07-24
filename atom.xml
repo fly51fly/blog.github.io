@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-24T13:23:13.757Z</updated>
+  <updated>2023-07-24T13:48:34.687Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ChatGPT时代怎么教编程</title>
+    <link href="https://blog.aicoco.net/2023/07/24/teaching-programming-in-the-age-of-chatgpt/"/>
+    <id>https://blog.aicoco.net/2023/07/24/teaching-programming-in-the-age-of-chatgpt/</id>
+    <published>2023-07-24T13:38:01.000Z</published>
+    <updated>2023-07-24T13:48:34.687Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://www.oreilly.com/radar/teaching-programming-in-the-age-of-chatgpt/">Teaching Programming in the Age of ChatGPT</a></p><h3 id="在ChatGPT时代教授编程：计算机教师的适应计划"><a href="#在ChatGPT时代教授编程：计算机教师的适应计划" class="headerlink" title="在ChatGPT时代教授编程：计算机教师的适应计划"></a>在ChatGPT时代教授编程：计算机教师的适应计划</h3><h4 id="主要信息"><a href="#主要信息" class="headerlink" title="主要信息"></a>主要信息</h4><ul><li>ChatGPT等AI编程助手的出现引发了计算机编程教师的关注，他们面临如何调整教学策略的挑战。</li><li>短期计划：教师希望阻止学生作弊，避免依赖AI工具，采取一些应对措施，如限制工具使用、强化考试方式等。</li><li>长期计划（抵制AI工具）：教师担心学生可能不掌握编程基础，提出设计“AI-proof”作业和评估方法的想法。</li><li>长期计划（拥抱AI工具）：教师认为AI编程工具是未来的趋势，可在教学中利用这些工具来帮助学生更好地学习编程。</li></ul><h4 id="详细重点内容"><a href="#详细重点内容" class="headerlink" title="详细重点内容"></a>详细重点内容</h4><h5 id="短期计划：阻止学生作弊"><a href="#短期计划：阻止学生作弊" class="headerlink" title="短期计划：阻止学生作弊"></a>短期计划：阻止学生作弊</h5><ul><li>计算机教师普遍认为AI编程助手可能带来学生作弊的问题，并采取一些措施来阻止学生过度依赖这些工具。</li><li>教师担心学生不会深入思考问题，而只是依赖AI工具的答案。</li><li>一些教师采取限制AI工具使用、调整考试方式等短期措施来解决这个问题。</li></ul><h5 id="长期计划（抵制AI工具）：保障学生学习编程基础"><a href="#长期计划（抵制AI工具）：保障学生学习编程基础" class="headerlink" title="长期计划（抵制AI工具）：保障学生学习编程基础"></a>长期计划（抵制AI工具）：保障学生学习编程基础</h5><ul><li>一些教师认为使用AI工具可能导致学生不掌握编程基础，提出设计“AI-proof”作业和评估方法的想法。</li><li>通过使用定制库或增加本地文化和语言背景等方法，设计作业和评估以减少AI工具的影响。</li><li>教师认为这些方法不仅有助于保障学生学习编程基础，还能够让学生更深入地思考编程问题。</li></ul><h5 id="长期计划（拥抱AI工具）：帮学生为未来职业需求做准备"><a href="#长期计划（拥抱AI工具）：帮学生为未来职业需求做准备" class="headerlink" title="长期计划（拥抱AI工具）：帮学生为未来职业需求做准备"></a>长期计划（拥抱AI工具）：帮学生为未来职业需求做准备</h5><ul><li>许多教师认为AI编程工具将成为程序员的标准工具，希望通过教学中利用这些工具来帮助学生为未来的职业需求做准备。</li><li>教师认为AI工具有助于学生更快地学习编程语法，并能够更深入地学习程序设计和工程。</li><li>教师还认为AI工具有助于提供个性化帮助，例如解释为什么某段代码出错等。</li></ul><h5 id="研究展望：有效、公平和道德地使用AI编程工具"><a href="#研究展望：有效、公平和道德地使用AI编程工具" class="headerlink" title="研究展望：有效、公平和道德地使用AI编程工具"></a>研究展望：有效、公平和道德地使用AI编程工具</h5><ul><li>这些发现是早期的研究成果，计算机教师对AI编程工具的使用还没有形成共识的最佳实践。</li><li>研究提出了一些关于如何开发、应用和评估AI编程工具的问题，包括学习者对AI生成代码的理解、AI工具的应用和评估等。</li></ul><h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><ul><li>计算机编程教师面临着调整教学策略的挑战，需要平衡抵制和拥抱AI编码工具的使用。</li><li>在长期计划中，教师需要关注学生学习编程基础的同时，也要充分利用AI工具提供的优势，为学生未来的职业需求做好准备。</li><li>进一步研究和探讨如何有效、公平和道德地使用AI编程工具对教育领域具有重要意义。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.oreilly.com/radar/teaching-programming-in-the-age-of-chatgpt/&quot;&gt;Teaching Programming in the Age of ChatGPT&lt;/a&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
+    
+    <category term="Programming" scheme="https://blog.aicoco.net/tags/Programming/"/>
+    
+    <category term="Teaching" scheme="https://blog.aicoco.net/tags/Teaching/"/>
+    
+  </entry>
   
   <entry>
     <title>让LLM总是用事实而不是虚构来回答问题</title>
@@ -396,9 +424,9 @@
     
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
-    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
-    
     <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
+    
+    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
     
   </entry>
   
@@ -501,35 +529,6 @@
     
     
     <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI工程师入门指南</title>
-    <link href="https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/"/>
-    <id>https://blog.aicoco.net/2023/06/26/How-to-Break-into-AI-Engineering/</id>
-    <published>2023-06-26T09:18:01.000Z</published>
-    <updated>2023-07-23T09:29:46.785Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://news.ycombinator.com/item?id=36432598">Ask HN: How to Break into AI Engineering</a></p><p>文章提到了学习AI工程所需的技能和知识的一些资源，包括数学基础、统计学、Python编程、IBM数据科学专业证书、机器学习和深度学习专业课程等。还讨论了数学在软件工程师中的重要性以及AI工程的发展趋势。</p><p>要点：</p><ul><li>要成为AI工程师，需要有扎实的数学基础，尤其是微积分和线性代数。</li><li>需要掌握统计学的语言和基本概念。</li><li>学习Python编程语言，掌握PyTorch。</li><li>推荐学习资源包括IBM Data Science Professional Certificate、Oliver Theobald的《Machine Learning for Absolute Beginners》、Andrew Ng的Coursera课程（包括《Machine Learning Specialization》和《Deep Learning Specialization》）以及fast.ai课程。</li><li>在选择AI领域的方向时，可以考虑自然语言处理（NLProc）、视觉处理（Vision）、强化学习（RL）等。</li><li>如果想在大型科技公司找工作，需要准备Leetcode面试、学习系统设计和机器学习系统的设计，还可以参考Chip Huyen的相关书籍。</li><li>数学在软件工程师中可能变得更加重要，因为AI在软件开发生命周期中的应用越来越广泛。</li><li>AI工程师的角色可以分为专注于模型改进、优化模型性能以及将模型应用于大型应用程序的不同方面。</li><li>学习数据清洗、数据标注和训练算法的基本过程非常重要，这些内容常常被忽视和低估。</li><li>AI工程师可以选择从数据工程入门，然后再专注于AI领域的特定方向。</li><li>AI工程师不仅需要技术知识，还需要与科学、数学等领域的知识相结合，可以结合自己的专业背景和兴趣选择方向。</li><li>AI工程师的角色可以是数据工程师的一种特殊化，不一定需要成为数学专家，但需要扎实的工程和数据处理能力。</li><li>AI工程师可以选择从事机器学习工程、数据工程和运维方面的工作，也可以选择研究工作，但后者通常需要更高的学历和数学基础。</li><li>了解数据工程的发展历程可以对AI工程师的角色有所启示，从中可以看到AI工程师可能在软件工程和AI领域之间进行工作。</li><li>AI工程师需要不断学习和尝试，掌握最新的技术和工具，并将其应用于实际项目中。</li><li>可以借助ChatGPT等工具来获取学习和编码的帮助，但仍需要自己进行实践和验证。</li><li>AI工程师的发展可能因不同的公司和行业而异，需要根据实际情况进行选择和发展。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://news.ycombinator.com/item?id=36432598&quot;&gt;Ask HN: How to Break into AI Engineering&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;文章提到了学习AI工程所需的技能和知识的一些资源，包</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="AI" scheme="https://blog.aicoco.net/tags/AI/"/>
-    
-    <category term="Engineering" scheme="https://blog.aicoco.net/tags/Engineering/"/>
-    
-    <category term="Learning" scheme="https://blog.aicoco.net/tags/Learning/"/>
     
   </entry>
   
