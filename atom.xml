@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-07-24T13:48:34.687Z</updated>
+  <updated>2023-07-31T23:44:16.150Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>是什么让Stack Overflow日渐衰落？</title>
+    <link href="https://blog.aicoco.net/2023/08/01/the-fall-of-stack-overflow-explained/"/>
+    <id>https://blog.aicoco.net/2023/08/01/the-fall-of-stack-overflow-explained/</id>
+    <published>2023-07-31T23:20:04.000Z</published>
+    <updated>2023-07-31T23:44:16.150Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://newsletter.devmoh.co/p/the-fall-of-stack-overflow-explained">The Fall of Stack Overflow, Explained</a></p><h2 id="Stack-Overflow-的衰落"><a href="#Stack-Overflow-的衰落" class="headerlink" title="Stack Overflow 的衰落"></a>Stack Overflow 的衰落</h2><p>一篇名为<a href="https://observablehq.com/d/fb670a74e01d9f54">《Stack Overflow的衰落》</a>的文章迅速传播，用数据详细描述了 Stack Overflow 在过去一年半流量下降了35-50%。</p><h3 id="1-原因一：Google-Analytics-的变化"><a href="#1-原因一：Google-Analytics-的变化" class="headerlink" title="1. 原因一：Google Analytics 的变化"></a>1. 原因一：Google Analytics 的变化</h3><p>2022年5月，由于隐私法律的原因，Google Analytics 改变了 cookie 的存储方式，导致流量报告出现了15%的下降。实际上，Stack Overflow 并未失去50%的流量，而是约35%。</p><h3 id="2-原因二：Stack-Overflow-对用户不友好"><a href="#2-原因二：Stack-Overflow-对用户不友好" class="headerlink" title="2. 原因二：Stack Overflow 对用户不友好"></a>2. 原因二：Stack Overflow 对用户不友好</h3><p>Stack Overflow 是一个用于提问的网站，但令人惊讶的是，它却是网络上最具有毒性和敌对性的地方之一，表现出被动攻击的方式。十多年来，我们见证了成千上万的有关 Stack Overflow 敌对性的抱怨，因此，Stack Overflow 的敌对性和衰落并不是新鲜事。</p><h3 id="3-原因三：Google-搜索排名下降"><a href="#3-原因三：Google-搜索排名下降" class="headerlink" title="3. 原因三：Google 搜索排名下降"></a>3. 原因三：Google 搜索排名下降</h3><p>Stack Overflow 的搜索结果在 Google 上排名下降，不再总是第一，有时甚至不会出现在第一页。</p><h3 id="4-原因四：AI-的影响"><a href="#4-原因四：AI-的影响" class="headerlink" title="4. 原因四：AI 的影响"></a>4. 原因四：AI 的影响</h3><p>AI(人工智能)也对 Stack Overflow 的衰落产生了影响。ChatGPT 特别适用于编程，它的发布加速了 Stack Overflow 的衰落。然而，AI 的兴起并非完全是最主要的原因，Stack Overflow 的衰落由来已久。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Stack Overflow 的流量衰退由多个因素共同导致。Google Analytics 的变化、对用户不友好以及 Google 搜索排名下降是其流量下降的原因之一。同时，AI 的兴起也对其产生了影响，但这并非唯一原因。Stack Overflow 作为一个免费提供数据的平台，为人工智能的训练做出了贡献，但AI的快速发展可能会导致未来训练数据的减少。</p><p>AI在解决问题的速度、友好程度和跟进上具有优势，但它仍然是工具，而非替代品。Stack Overflow 可能会继续衰落，特别是在 Google 的 Search Labs 推出后。Stack Overflow 已经推出了 OverflowAI 作为对衰落的回应，AI 和 Stack Overflow 可能在未来相互竞争。</p><p>然而，Stack Overflow 仍然是一个宝贵的资源，它对于许多开发者来说仍然非常有用。AI 和 Stack Overflow 在不同场景下可能会互补，而不是替代彼此。开发者可以根据具体情况选择使用合适的工具来提高生产力和解决问题。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://newsletter.devmoh.co/p/the-fall-of-stack-overflow-explained&quot;&gt;The Fall of Stack Overflow, Explained&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;St</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
+    
+    <category term="StackOverflow" scheme="https://blog.aicoco.net/tags/StackOverflow/"/>
+    
+  </entry>
   
   <entry>
     <title>ChatGPT时代怎么教编程</title>
@@ -424,9 +451,9 @@
     
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
-    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
-    
     <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
+    
+    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
     
   </entry>
   
@@ -505,30 +532,6 @@
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
     <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>脚本(Script)与程序(Program)</title>
-    <link href="https://blog.aicoco.net/2023/06/26/script-vs-program/"/>
-    <id>https://blog.aicoco.net/2023/06/26/script-vs-program/</id>
-    <published>2023-06-26T12:34:04.000Z</published>
-    <updated>2023-07-23T09:37:41.682Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://utcc.utoronto.ca/~cks/space/blog/programming/ScriptVersusProgram">Failing to draw lines between ‘script’ and ‘program’</a></p><h3 id="Unix脚本与程序：关于术语的辩论"><a href="#Unix脚本与程序：关于术语的辩论" class="headerlink" title="Unix脚本与程序：关于术语的辩论"></a>Unix脚本与程序：关于术语的辩论</h3><p>本文讨论了在Unix环境中关于“script”（脚本）和“program”（程序）的术语辩论。投票者提出了一些模糊的观点，并提供了一些实践中的思考。</p><h4 id="投票结果和模糊观点"><a href="#投票结果和模糊观点" class="headerlink" title="投票结果和模糊观点"></a>投票结果和模糊观点</h4><ul><li>投票中，有人选择了“complex&#x2F;simple”（复杂&#x2F;简单），但他认为这个问题在实践中更为复杂。</li><li>他认为，对于编译语言，无论大小或复杂程度，都应称之为“program”（程序），即使是单文件的解释语言也是如此。</li><li>他认为，“script”与Unix的“#!行和解释器”问题无关，这只是一个技术问题，有时候可能并不重要。</li></ul><h4 id="对“script”和“program”的不同理解"><a href="#对“script”和“program”的不同理解" class="headerlink" title="对“script”和“program”的不同理解"></a>对“script”和“program”的不同理解</h4><ul><li>有时他将shell脚本（无论是Bourne shell还是其他Shell）称为“script”，而将其他语言的内容称为“program”。</li><li>他对复杂的sed块是“script”还是“program”并没有明确的答案。</li><li>对于报告Linux cgroup内存使用情况的Bourne shell脚本，他认为它是“script”，但用Python进行重写后则是“program”。</li></ul><h4 id="对扩展其他程序的代码的看法"><a href="#对扩展其他程序的代码的看法" class="headerlink" title="对扩展其他程序的代码的看法"></a>对扩展其他程序的代码的看法</h4><ul><li>Emacs Lisp的内容可能是“script”、“program”或其他术语，Emacs用户可能有自己的术语。</li><li>Vim的“script”语言用于编写插件，对于用它编写的内容，他不确定人们是否称之为“script”。</li></ul><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>在Unix社区中，关于“script”和“program”的术语使用存在辩论。对于一些人来说，用shell编写的内容可能被称为“script”，而其他语言的内容则被称为“program”。而扩展其他程序的代码可能被认为是不同于“script”的内容。这个术语辩论可能因个人经验和偏好而异，因此没有明确的标准定义。</p><p>（计算机术语的多样性确实让人觉得有趣。）</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://utcc.utoronto.ca/~cks/space/blog/programming/ScriptVersusProgram&quot;&gt;Failing to draw lines between ‘script’ and ‘program</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="programming" scheme="https://blog.aicoco.net/tags/programming/"/>
     
   </entry>
   
