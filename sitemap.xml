@@ -270,13 +270,6 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/LLM/</loc>
-    <lastmod>2023-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/Research/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -284,14 +277,7 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/SQL/</loc>
-    <lastmod>2023-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/programming/</loc>
+    <loc>https://blog.aicoco.net/tags/LLM/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Learning/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/SQL/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/programming/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -347,6 +347,13 @@
   </url>
   
   <url>
+    <loc>https://blog.aicoco.net/tags/Agent/</loc>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -355,13 +362,6 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
-    <lastmod>2023-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Agent/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,14 +389,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/StackOverflow/</loc>
+    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
+    <loc>https://blog.aicoco.net/tags/StackOverflow/</loc>
     <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
