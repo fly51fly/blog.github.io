@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-01T00:45:47.781Z</updated>
+  <updated>2023-08-05T23:22:24.760Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI不会取代人类，但使用AI的人将取代不使用AI的人</title>
+    <link href="https://blog.aicoco.net/2023/08/06/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai/"/>
+    <id>https://blog.aicoco.net/2023/08/06/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai/</id>
+    <published>2023-08-05T23:17:24.000Z</published>
+    <updated>2023-08-05T23:22:24.760Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai">AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI</a></p><p>内容要点：  </p><ul><li>与互联网大大降低了信息传输的成本一样，AI将降低认知的成本。  </li><li>虽然很多人担心AI会取代人类的工作，但真正的趋势是，拥有AI技能的人类将会取代那些没有AI技能的人类。这意味着AI不是一个威胁，而是一个工具，可以增强人类的能力。  </li><li>AI不仅仅是为技术工作者设计的，所有员工都应该了解和利用AI。这意味着企业需要为所有员工提供AI培训和资源，而不仅仅是技术团队。  </li><li>AI的应用不仅仅是在高技术领域，它可以应用在任何需要思考的地方，AI的潜在应用是无限的。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai&quot;&gt;AI Won’t Replace Humans — B</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="Research" scheme="https://blog.aicoco.net/tags/Research/"/>
+    
+  </entry>
   
   <entry>
     <title>创新研究的原则和启示</title>
@@ -503,33 +527,6 @@
     
     
     <category term="Research" scheme="https://blog.aicoco.net/tags/Research/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Open LLM Leaderboard排名之谜</title>
-    <link href="https://blog.aicoco.net/2023/06/27/What_s_going_on_with_the_Open_LLM_Leaderboard/"/>
-    <id>https://blog.aicoco.net/2023/06/27/What_s_going_on_with_the_Open_LLM_Leaderboard/</id>
-    <published>2023-06-27T02:15:00.000Z</published>
-    <updated>2023-06-28T12:40:10.674Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://huggingface.co/blog/evaluating-mmlu-leaderboard">What’s going on with the Open LLM Leaderboard?</a></p><p>本文讨论了Open LLM Leaderboard上MMLU评估的差异问题。不同的评估实现会给出不同的结果，并且可能改变模型在Leaderboard上的排名。作者强调了评估与实现细节密切相关，开放、标准化和可复现的基准测试对于改进LLM非常重要。介绍了三种不同的MMLU评估实现，即Harness实现、HELM实现和Original实现，并比较了它们的结果。最后，提到将更新EleutherAI Eval Harness，并更新完整的Leaderboard。</p><p>要点：  </p><ul><li>Twitter上发布了Falcon，并加入了Open LLM Leaderboard(开放排行榜)，引发了有趣的讨论。</li><li>讨论的焦点是排行榜上的四个评估之一：用于衡量”Massive Multitask Language Understanding(MMLU)”的基准。</li><li>当前排行榜上排名第一的LLaMA模型的MMLU评估数据明显低于LLaMa论文中的数据，这让社区感到惊讶。</li><li>为了弄清楚情况并解决问题，运行了三种不同的MMLU评估实现，并对模型进行了排名。</li><li>不同实现方式给出的评估结果差异很大，甚至改变了模型在排行榜上的顺序。</li><li>MMLU是一个多项选择题测试，评估方式有多种，其中包括模型生成的概率和生成的文本与预期答案的比较。</li><li>在评估过程中，不同实现方式在提示语、模型输出预测等方面存在细微差别。</li><li>模型在同一数据集上的得分和排名非常敏感，不同评估方法得出的结果不可比较。</li><li>标准化和可复现的评估基准对于比较不同模型和研究成果至关重要。</li><li>Open LLM Leaderboard决定采用社区维护的评估库，并更新了MMLU评估的实现以保持一致性。</li><li>正在更新完整的排行榜，使用更新后的评估库进行评估。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://huggingface.co/blog/evaluating-mmlu-leaderboard&quot;&gt;What’s going on with the Open LLM Leaderboard?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文讨论了Open </summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-    <category term="Leaderboard" scheme="https://blog.aicoco.net/tags/Leaderboard/"/>
     
   </entry>
   
