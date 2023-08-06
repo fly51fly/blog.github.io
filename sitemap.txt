@@ -1,3 +1,4 @@
+https://blog.aicoco.net/2023/08/06/llm-patterns/
 https://blog.aicoco.net/2023/08/06/llm-vs-oss/
 https://blog.aicoco.net/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/
 https://blog.aicoco.net/2023/08/06/cargo-cult-ai/
@@ -43,10 +44,10 @@ https://blog.aicoco.net/tags/Academic/
 https://blog.aicoco.net/tags/Data/
 https://blog.aicoco.net/tags/IQ/
 https://blog.aicoco.net/tags/Intelligence/
-https://blog.aicoco.net/tags/Agent/
 https://blog.aicoco.net/tags/ChatGPT/
 https://blog.aicoco.net/tags/Chatbot/
 https://blog.aicoco.net/tags/Leaderboard/
+https://blog.aicoco.net/tags/Agent/
 https://blog.aicoco.net/tags/Programming/
 https://blog.aicoco.net/tags/OOP/
 https://blog.aicoco.net/tags/StackOverflow/

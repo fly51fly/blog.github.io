@@ -21,25 +21,26 @@
   <meta name="theme-color" content="#f8f8f8">
   <meta name="google-site-verification" content="uXzWaSqct7cieDPaX4gdDWaAlWkiYxHTYVdt4TsQElc" />
   
-  <title>爱可可小窝</title>
+  <title>大型语言模型系统和产品的构建模式 - 爱可可小窝</title>
 
   
-    <meta name="description" content="google-site-verification: google7db268adce4168b3.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="爱可可小窝">
-<meta property="og:url" content="https://blog.aicoco.net/google7db268adce4168b3.html">
+    <meta name="description" content="原文：Patterns for Building LLM-based Systems &amp; Products 标题: 大型语言模型（LLM）系统和产品的构建模式 要点:  讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。   介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大型语言模型系统和产品的构建模式">
+<meta property="og:url" content="https://blog.aicoco.net/2023/08/06/llm-patterns/index.html">
 <meta property="og:site_name" content="爱可可小窝">
-<meta property="og:description" content="google-site-verification: google7db268adce4168b3.html">
+<meta property="og:description" content="原文：Patterns for Building LLM-based Systems &amp; Products 标题: 大型语言模型（LLM）系统和产品的构建模式 要点:  讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。   介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fin">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-22T02:23:36.728Z">
-<meta property="article:modified_time" content="2023-07-22T02:11:31.174Z">
+<meta property="article:published_time" content="2023-08-06T10:33:57.000Z">
+<meta property="article:modified_time" content="2023-08-06T10:45:27.447Z">
 <meta property="article:author" content="Guang Chen">
-<meta name="twitter:card" content="summary">
+<meta property="article:tag" content="LLM">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@fly51fly">
   
   
   
-  
+  <meta name="keywords" content="LLM">
 
   <!-- feed -->
   
@@ -70,8 +71,10 @@
   
 
 
+
+
   <div class='l_body' id='start'>
-    <aside class='l_left' layout='page'>
+    <aside class='l_left' layout='post'>
     
 
   
@@ -83,29 +86,72 @@
 
 
 <div class="widgets">
+<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/blog/" placeholder="文章搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
+
 
 
 <widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/08/06/llm-patterns/"><span class="title">大型语言模型系统和产品的构建模式</span></a><a class="item title" href="/2023/08/06/llm-vs-oss/"><span class="title">大语言模型开源的利与弊</span></a><a class="item title" href="/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/"><span class="title">AI的认知极限</span></a><a class="item title" href="/2023/08/06/cargo-cult-ai/"><span class="title">科学思维的能力是否是智慧的核心本质？</span></a><a class="item title" href="/2023/08/06/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai/"><span class="title">AI不会取代人类，但使用AI的人将取代不使用AI的人</span></a></div></widget>
 
 
-<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" placeholder="站内搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
+
+
+
 </div>
 
 
     </aside>
     <div class='l_main'>
       
-  
-
-<header class="header mobile-only"><div class="logo-wrap"><a class="title" href="/"><div class="main" ff="title">爱可可小窝</div><div class="sub cap">@爱可可-爱生活 的学习与思考</div></a></div></header>
-
-
 
       
 
 
 
-<article class="md-text content page">google-site-verification: google7db268adce4168b3.html</article>
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%96%87%E6%91%98/">文摘</a></div><div id="post-meta">发布于&nbsp;<time datetime="2023-08-06T10:33:57.000Z">2023-08-06</time></div></div>
+
+<article class='md-text content post'>
+<h1 class="article-title"><span>大型语言模型系统和产品的构建模式</span></h1>
+<p>原文：<a target="_blank" rel="noopener" href="https://eugeneyan.com/writing/llm-patterns/">Patterns for Building LLM-based Systems &amp; Products</a></p>
+<p><strong>标题</strong>: 大型语言模型（LLM）系统和产品的构建模式</p>
+<p><strong>要点</strong>:</p>
+<ol>
+<li>讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。  <ol start="2">
+<li>介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fine-tuning（在特定任务上表现更好）、Caching（降低延迟和成本）、Guardrails（确保输出质量）、Defensive UX（优雅地预测和管理错误）和收集用户反馈（构建数据飞轮）：</li>
+</ol>
+<ul>
+<li>评估（Evals）非常重要，可以衡量系统性能并检测回归。但是传统的评估指标如BLEU和ROUGE可能与人类判断存在差异，实现起来也有挑战。大型语言模型本身可以作为一种无参评估。  </li>
+<li>检索增强生成（RAG）可以通过为基础模型提供相关外部知识来减少幻想，增加事实依据。也更易于保持检索索引的更新，从而为LLM提供最近的数据。  </li>
+<li>微调（Fine-tuning）可以提高模型在特定任务上的表现，甚至可能超过第三方LLM。它也使我们对LLM行为有更多控制，从而构建更可靠的系统&#x2F;产品。  </li>
+<li>缓存（Caching）可以显著降低延迟和成本，但需要谨慎采用，避免提供错误的响应。结合精确匹配（如ID）和语义相似性检索可能是一个更安全的策略。  </li>
+<li>防护栏（Guardrails）可以确保输出质量，包括语法正确性、无害性和一致性检查。大型语言模型本身也可用于评估。  </li>
+<li>防御性UX设计（Defensive UX）可以让系统更优雅地处理错误，提高可访问性和用户信任。提示、提供来源和建立在熟悉的UX上尤为重要。   </li>
+<li>收集用户反馈可以帮我们建立一个正反馈循环，收集数据来持续改进系统。</li>
+</ul>
+</li>
+<li>详细讨论了各种评估模型的性能的方法，包括BLEU、ROUGE、BERTScore和MoverScore等度量标准。  </li>
+<li>介绍了Retrieval-Augmented Generation (RAG)的概念，从外部模型获取相关数据并增强输入，提供更丰富的上下文以改善输出。</li>
+</ol>
+<p><strong>启发</strong>:  </p>
+<ol>
+<li>尽管BLEU、ROUGE等度量标准在某些任务上表现良好，但它们在需要创造性和多样性的任务上与人类评价的相关性较低。  </li>
+<li>这些度量标准经常在更广泛的任务中适应性较差。例如，BLEU和ROUGE这样的精确匹配度量标准不适合抽象概括或对话等任务。  </li>
+<li>即使对于同一度量标准，不同研究中的变异性也很高，可能是由于人类判断收集或度量参数设置的变化。  </li>
+<li>RAG有助于通过将模型基于检索到的上下文进行定位，从而增加事实性，减少幻觉。此外，保持检索索引的更新比持续预训练LLM更便宜。</li>
+</ol>
+
+
+
+<div class="article-footer reveal fs14"><section id="references"><div class="header"><span>参考资料</span></div><div class="body"><ul><li class="post-title"><a href="https://eugeneyan.com/writing/llm-patterns/" target="_blank" rel="external nofollow noopener noreferrer">Patterns for Building LLM-based Systems & Products</a></li></ul></div></section><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div></section></div>
+
+</article>
+
+<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2023/08/06/llm-vs-oss/">大语言模型开源的利与弊</a></div></section></div>
+
+
+
+
+
 
   <div class='related-wrap md-text reveal' id="comments">
     <section class='header cmt-title cap theme'>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.aicoco.net/2023/08/06/llm-patterns/</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/2023/08/06/llm-vs-oss/</loc>
     
     <lastmod>2023-08-06</lastmod>
@@ -383,13 +392,6 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Agent/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -405,6 +407,13 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Agent/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
