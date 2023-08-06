@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-06T00:42:50.757Z</updated>
+  <updated>2023-08-06T01:04:37.813Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大语言模型开源的利与弊</title>
+    <link href="https://blog.aicoco.net/2023/08/06/llm-vs-oss/"/>
+    <id>https://blog.aicoco.net/2023/08/06/llm-vs-oss/</id>
+    <published>2023-08-06T01:00:32.000Z</published>
+    <updated>2023-08-06T01:04:37.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>先对以大型语言模型(LLM)为代表的大模型的开源和代码项目的开源做个简单比较：</p><table><thead><tr><th></th><th>大模型的开源</th><th>代码项目的开源</th></tr></thead><tbody><tr><td>开放内容</td><td>预训练的模型，主要是网络结构和参数，一般不开放训练数据和训练代码（以及训练过程&amp;技巧）。</td><td>为实现特定功能或应用编写的代码或脚本。</td></tr><tr><td>潜在风险</td><td>可能输出有偏见、不准确或误导性信息；存在滥用风险，用于钓鱼、恶意软件编写等。</td><td>可能存在漏洞或错误，被恶意利用（攻击）。</td></tr><tr><td>修改和改进</td><td>由于缺少训练细节（数据&amp;代码），以及算力成本高昂，难以修改模型本身，但可进行微调（小范围或小幅度调整模型参数）。</td><td>可直接修改、增加功能或优化。</td></tr><tr><td>存储和分发</td><td>由于体量巨大，存储和分发有一定困难，一般通过网盘或大模型托管方(HuggingFace等)进行分发。</td><td>通常体积较小，更容易存储和分发。</td></tr><tr><td>分发和使用限制</td><td>除了和开源代码相同的开源许可证之外，可能还有其他额外限制（比如 Llama 2 月活超 7 亿不能用等）</td><td>根据开源许可证的不同，会要求衍生作品同一许可证分发、非商业使用等。</td></tr></tbody></table><p>某种程度上，开源的大模型，有点像编译后的二进制文件，由于没有源码（对于大模型来说是训练数据和训练过程，以及训练的算力成本巨大），完全重构几乎不可能，只能通过局部反编译修改机器码进行注入等方式（对于大模型来说是对参数进行小范围小幅调整）小修小改。</p><p>大模型开源最大的利，在于可以吸引足够多的用户和开发者，一方面，通过微调，用于各种领域各种细分场景和任务，产生社会效益和经济效益；另一方面，用的人多了，就能更快的挖掘最佳实践、发现潜在问题，对模型开发方也能产生充分的正反馈效应。另外，公开模型的结构和权重可以帮助公众、研究者和监管机构更好地理解模型的工作原理，增强对模型的信任。从大模型运行方面，某种程度上，开源也为分布式运行提供了基础，有助于充分利用用户的分散算力、发挥模型的最大价值。</p><p>大模型开源最大的弊，恐怕在于滥用风险，现在已经可以看到一些在开源模型基础上微调的不受约束的所谓“非审核”版模型，用来生成钓鱼邮件、诈骗电话对话、生成恶意代码、制造假新闻、在问答网站提供不实答案等，其负面影响不容忽视。另外，开源可能会影响某些传统的商业化策略，尤其是当这些策略依赖于知识产权或专利时。开源模型还可能涉及许可、版权、专利等法律问题，需要特别关注以避免潜在的纠纷。</p><p>大模型闭源，类似 ChatGPT、Claude 等，利主要体现在为公司提供独特的竞争优势、保护公司的研发成果、降低某些安全风险、避免（至少是控制）不当使用、减少计算资源滥用、数据隐私和保密性等方面。</p><p>大模型闭源的弊，主要体现在缺乏透明性难以获得公众充分信任、限制广大研究者和开发者对模型的改进和创新、潜在的偏见等问题不容易被识别和纠正、对开发方的依赖导致过度的市场集中和缺乏多样性、长期维护的持久性问题、在隐私和数据处理要求更多透明度和可解释性的领域很难满足要求等。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先对以大型语言模型(LLM)为代表的大模型的开源和代码项目的开源做个简单比较：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;大模型的开源&lt;/th&gt;
+&lt;th&gt;代码项目的开源&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;t</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://blog.aicoco.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+  </entry>
   
   <entry>
     <title>AI的认知极限</title>
@@ -494,35 +528,6 @@
     <category term="Academic" scheme="https://blog.aicoco.net/tags/Academic/"/>
     
     <category term="Data" scheme="https://blog.aicoco.net/tags/Data/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图解：私有知识库LLM聊天机器人</title>
-    <link href="https://blog.aicoco.net/2023/06/28/LLM-based-Chatbot-to-query-Private-Knowledge-Base/"/>
-    <id>https://blog.aicoco.net/2023/06/28/LLM-based-Chatbot-to-query-Private-Knowledge-Base/</id>
-    <published>2023-06-28T01:18:02.000Z</published>
-    <updated>2023-06-28T12:38:44.191Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://twitter.com/Aurimas_Gr/status/1673621343122726912">LLM based Chatbot to query Private Knowledge Base</a></p><div class="tag-plugin image"><div class="image-bg"><img src="https://s1.ax1x.com/2023/06/28/pCwP8te.jpg" alt="LLM based Chatbot to query Private Knowledge Base"/></div><div class="image-meta"><span class="image-caption center">LLM based Chatbot to query Private Knowledge Base</span></div></div><ol><li>将整个知识库的文本语料分割成多个块——每个块表示一个可查询的上下文片段，知识数据可以来自多个源；</li><li>用嵌入(Embedding)模型将每个块转换为一个向量；</li><li>将所有向量存储在向量数据库；</li><li>分别保存表示每个嵌入向量的文本，同时保存指向该向量的指针。</li><li>使用与嵌入知识库本身所使用的相同的嵌入模型，将要提问的问题&#x2F;查询进行嵌入，转换成向量；</li><li>使用生成的向量在向量数据库的索引中运行一个查询。选择要从向量数据库中检索多少个向量 - 这将等于您将要检索和最终用于回答查询问题的上下文数量；</li><li>向量数据库对所提供的向量执行近似最近邻(ANN)搜索，并返回之前选择的上下文向量的数量。该过程返回在给定的嵌入&#x2F;潜空间中最相似的向量；</li><li>将返回的向量嵌入映射到对应的文本块；</li><li>将问题与检索到的上下文文本块一起传给LLM(大语言模型)，通过提示指示LLM仅使用提供的上下文来回答给定的问题。这并不意味着不需要进行提示工程 - 需要确保LLM返回的答案符合预期的范围，例如，如果在检索到的上下文中没有可用的数据，则确保不提供虚构的答案。</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://twitter.com/Aurimas_Gr/status/1673621343122726912&quot;&gt;LLM based Chatbot to query Private Knowledge Base&lt;/a&gt;&lt;/p&gt;
-&lt;div cla</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
-    
-    <category term="Chatbot" scheme="https://blog.aicoco.net/tags/Chatbot/"/>
     
   </entry>
   
