@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-06T00:25:32.761Z</updated>
+  <updated>2023-08-06T00:42:50.757Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI的认知极限</title>
+    <link href="https://blog.aicoco.net/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/"/>
+    <id>https://blog.aicoco.net/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/</id>
+    <published>2023-08-06T00:32:32.000Z</published>
+    <updated>2023-08-06T00:42:50.757Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://cpwalker.substack.com/p/the-myth-of-ai-omniscience-ais-epistemological">The Myth of AI Omniscience: AI’s Epistemological Limits</a></p><p><strong>标题</strong>：对AI全知全能的误解：AI 的认知极限</p><p><strong>摘要</strong>：<br>文章探讨了关于AI的普遍误解，特别是关于AI是否能够“理解宇宙的真实本质”。作者指出，尽管AI在许多方面都表现出了强大的能力，但它仍然受到人类知识和理解的限制。大型语言模型（LLM）如GPT-4只能反映出我们当前对宇宙的理解，而不能超越这一点。此外，所有的AI模型都是基于人类的知识和理解来训练的，因此它们只能透过人类的眼睛“看到”宇宙。作者呼吁我们摒弃对AI神化的看法，并关注真正重要的AI问题，如模型偏见、深度伪造和失业问题。</p><p><strong>启发</strong>：  </p><ol><li><strong>AI的知识边界</strong>：尽管AI在许多任务上表现出色，但它仍然受到其训练数据的限制。这意味着AI只能反映出人类当前的知识和理解，而不能超越这些边界。  </li><li><strong>人类的角色</strong>：AI的知识和理解是基于人类的知识和理解来训练的，这意味着AI的输出是人类知识的一个镜像，而不是一个独立的、超越人类的知识源。  </li><li><strong>AI的真正挑战</strong>：我们应该关注真正重要的AI问题，而不是被对AI的过度神话化所迷惑。这包括如何确保AI的公正性、如何防止AI被用于制造虚假信息，以及如何确保AI不会导致大规模的失业。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://cpwalker.substack.com/p/the-myth-of-ai-omniscience-ais-epistemological&quot;&gt;The Myth of AI Omniscience: AI’s Epistemologi</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="Research" scheme="https://blog.aicoco.net/tags/Research/"/>
+    
+  </entry>
   
   <entry>
     <title>科学思维的能力是否是智慧的核心本质？</title>
@@ -499,35 +523,6 @@
     <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
     
     <category term="Chatbot" scheme="https://blog.aicoco.net/tags/Chatbot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LLM赋能的自主智能体(Agent)</title>
-    <link href="https://blog.aicoco.net/2023/06/28/LLM-Powered-Autonomous-Agents/"/>
-    <id>https://blog.aicoco.net/2023/06/28/LLM-Powered-Autonomous-Agents/</id>
-    <published>2023-06-27T22:20:04.000Z</published>
-    <updated>2023-06-28T12:39:06.328Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://lilianweng.github.io/posts/2023-06-23-agent/">LLM Powered Autonomous Agents</a></p><p>以LLM（大型语言模型）作为核心控制器构建智能体的概念很酷。一些概念验证演示，如AutoGPT、GPT-Engineer和BabAGI，都是令人鼓舞的示例。LLM的潜力不仅限于生成书面副本、故事、论文和程序，它可以被视为强大的通用问题求解器。LLM驱动的自主智能体系统概述：LLM作为智能体的大脑，配合几个关键组件：子目标规划和分解、反思和改进、短期记忆、长期记忆和工具使用。该系统还包括记忆类型、最大内积搜索(MIPS)算法、工具使用能力的案例研究，以及AutoGPT等概念验证示例。</p><p>要点：</p><ul><li>建立以大型语言模型(LLM)为核心控制器的智能体系统是一个很酷的概念。</li><li>LLM的潜力不仅限于生成文本、故事、论文和程序，它还可以被视为一个强大的通用问题求解器。</li><li>智能体系统的核心组成部分包括规划、反思、记忆和工具使用。</li><li>规划：将复杂任务分解为可管理的子目标，实现对复杂任务的高效处理。</li><li>反思和改进：智能体可以对过去的行动进行自我批评和反思，从错误中学习并改进，提高最终结果的质量。</li><li>记忆：短期记忆用于模型的上下文学习，长期记忆通过外部向量存储和快速检索提供了无限的信息存储和回忆能力。</li><li>工具使用：智能体学习调用外部API获取模型权重中缺失的额外信息，包括当前信息、代码执行能力、专有信息源等。</li><li>LLM+P方法利用外部经典规划器进行长程规划，通过PDDL语言描述规划问题，将规划步骤外包给外部工具。</li><li>自反思：智能体通过结合任务特定的离散动作和语言空间来进行自反思，从而改进决策和行动，提高推理能力。</li><li>CoH通过向模型提供过去输出的历史序列和反馈来改进模型的输出质量。</li><li>算法蒸馏利用交叉轮次历史训练神经网络，学习强化学习算法的过程而非任务特定的策略。</li><li>记忆分为感觉记忆、短期记忆和长期记忆，长期记忆可以通过外部向量存储和快速检索进行扩展。</li><li>外部记忆通常使用最大内积搜索(MIPS)算法进行快速检索，常用的算法包括LSH、ANNOY、HNSW、FAISS和ScaNN。</li><li>工具使用可以显著扩展模型的能力，如调用API、使用外部模块等。</li><li>MRKL是一个神经符号化架构，将LLM与多个专家模块结合起来，根据任务选择合适的模块。</li><li>HuggingGPT是一个使用LLM作为任务规划器的框架，根据模型描述选择合适的模型并提供执行结果的总结。</li><li>API-Bank是一个评估工具增强LLM性能的基准，包含常用API工具、完整的工具增强LLM流程和带有API调用的对话数据集。</li><li>ChemCrow是一个领域特定的示例，LLM与专家设计的工具结合，用于完成有机合成、药物发现和材料设计等任务。</li><li>Generative Agents是一个基于LLM的虚拟角色模拟实验，结合记忆、规划和反思机制，实现了智能体之间的互动行为。</li><li>AutoGPT是一个证明概念的示例，展示了将LLM作为主控制器的可能性，但在可靠性方面存在一些问题。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://lilianweng.github.io/posts/2023-06-23-agent/&quot;&gt;LLM Powered Autonomous Agents&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以LLM（大型语言模型）作为核心控制器构建智能体的概念很酷。</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-    <category term="Agent" scheme="https://blog.aicoco.net/tags/Agent/"/>
-    
-    <category term="ChatGPT" scheme="https://blog.aicoco.net/tags/ChatGPT/"/>
     
   </entry>
   

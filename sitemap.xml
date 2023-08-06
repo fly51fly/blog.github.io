@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.aicoco.net/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/2023/08/06/cargo-cult-ai/</loc>
     
     <lastmod>2023-08-06</lastmod>
@@ -295,6 +304,27 @@
   </url>
   
   <url>
+    <loc>https://blog.aicoco.net/tags/Research/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/SQL/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/programming/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/tags/AI/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -316,6 +346,20 @@
   </url>
   
   <url>
+    <loc>https://blog.aicoco.net/tags/Academic/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Data/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/tags/IQ/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -324,13 +368,6 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Intelligence/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Research/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -351,27 +388,6 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Academic/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Data/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -379,14 +395,7 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/SQL/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/programming/</loc>
+    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -407,14 +416,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
+    <loc>https://blog.aicoco.net/tags/StackOverflow/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/StackOverflow/</loc>
+    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
