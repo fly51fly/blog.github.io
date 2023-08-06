@@ -32,7 +32,7 @@
 <meta property="og:description" content="原文：Patterns for Building LLM-based Systems &amp; Products 标题: 大型语言模型（LLM）系统和产品的构建模式 要点:  讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。   介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fin">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-08-06T10:33:57.000Z">
-<meta property="article:modified_time" content="2023-08-06T10:47:32.390Z">
+<meta property="article:modified_time" content="2023-08-06T12:17:16.517Z">
 <meta property="article:author" content="Guang Chen">
 <meta property="article:tag" content="LLM">
 <meta name="twitter:card" content="summary_large_image">
@@ -90,7 +90,7 @@
 
 
 
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/08/06/can-you-simply-brainwash-an-llm/"><span class="title">给 LLM 洗脑能行吗？</span></a><a class="item title" href="/2023/08/06/llm-patterns/"><span class="title">大型语言模型系统和产品的构建模式</span></a><a class="item title" href="/2023/08/06/llm-vs-oss/"><span class="title">大语言模型开源的利与弊</span></a><a class="item title" href="/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/"><span class="title">AI的认知极限</span></a><a class="item title" href="/2023/08/06/cargo-cult-ai/"><span class="title">科学思维的能力是否是智慧的核心本质？</span></a></div></widget>
+<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2023/08/06/llm-patterns/"><span class="title">大型语言模型系统和产品的构建模式</span></a><a class="item title" href="/2023/08/06/can-you-simply-brainwash-an-llm/"><span class="title">给 LLM 洗脑能行吗？</span></a><a class="item title" href="/2023/08/06/llm-vs-oss/"><span class="title">大语言模型开源的利与弊</span></a><a class="item title" href="/2023/08/06/the-myth-of-ai-omniscience-ais-epistemological/"><span class="title">AI的认知极限</span></a><a class="item title" href="/2023/08/06/cargo-cult-ai/"><span class="title">科学思维的能力是否是智慧的核心本质？</span></a></div></widget>
 
 
 
@@ -115,10 +115,8 @@
 <p><strong>标题</strong>: 大型语言模型（LLM）系统和产品的构建模式</p>
 <p><strong>要点</strong>:</p>
 <ol>
-<li>讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。  <ol start="2">
-<li>介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fine-tuning（在特定任务上表现更好）、Caching（降低延迟和成本）、Guardrails（确保输出质量）、Defensive UX（优雅地预测和管理错误）和收集用户反馈（构建数据飞轮）：</li>
-</ol>
-<ul>
+<li>讨论了将大型语言模型（LLM）集成到系统和产品中的实用模式，包括学术研究、行业资源和实践者的知识，并将它们提炼为关键的思想和实践。  </li>
+<li>介绍了七个关键模式，包括：Evals（性能评估）、RAG（添加最新的外部知识）、Fine-tuning（在特定任务上表现更好）、Caching（降低延迟和成本）、Guardrails（确保输出质量）、Defensive UX（优雅地预测和管理错误）和收集用户反馈（构建数据飞轮）： <ul>
 <li>评估（Evals）非常重要，可以衡量系统性能并检测回归。但是传统的评估指标如BLEU和ROUGE可能与人类判断存在差异，实现起来也有挑战。大型语言模型本身可以作为一种无参评估。  </li>
 <li>检索增强生成（RAG）可以通过为基础模型提供相关外部知识来减少幻想，增加事实依据。也更易于保持检索索引的更新，从而为LLM提供最近的数据。  </li>
 <li>微调（Fine-tuning）可以提高模型在特定任务上的表现，甚至可能超过第三方LLM。它也使我们对LLM行为有更多控制，从而构建更可靠的系统&#x2F;产品。  </li>

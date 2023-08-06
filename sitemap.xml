@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.aicoco.net/2023/08/06/can-you-simply-brainwash-an-llm/</loc>
+    <loc>https://blog.aicoco.net/2023/08/06/llm-patterns/</loc>
     
     <lastmod>2023-08-06</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/2023/08/06/llm-patterns/</loc>
+    <loc>https://blog.aicoco.net/2023/08/06/can-you-simply-brainwash-an-llm/</loc>
     
     <lastmod>2023-08-06</lastmod>
     
@@ -317,13 +317,6 @@
 
   
   <url>
-    <loc>https://blog.aicoco.net/tags/LLM/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/AIGC/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,7 +324,28 @@
   </url>
   
   <url>
+    <loc>https://blog.aicoco.net/tags/LLM/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/tags/Research/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/SQL/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/programming/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -359,20 +373,6 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/SQL/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/programming/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.aicoco.net/tags/Academic/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -381,34 +381,6 @@
   
   <url>
     <loc>https://blog.aicoco.net/tags/Data/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Agent/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -429,6 +401,34 @@
   </url>
   
   <url>
+    <loc>https://blog.aicoco.net/tags/Agent/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/ChatGPT/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Chatbot/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.aicoco.net/tags/Leaderboard/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.aicoco.net/tags/Programming/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -436,14 +436,14 @@
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
+    <loc>https://blog.aicoco.net/tags/OOP/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.aicoco.net/tags/OOP/</loc>
+    <loc>https://blog.aicoco.net/tags/Teaching/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
