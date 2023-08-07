@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-06T11:59:33.638Z</updated>
+  <updated>2023-08-07T00:40:36.234Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面临转型的免费开源软件</title>
+    <link href="https://blog.aicoco.net/2023/08/07/the-floss-transition/"/>
+    <id>https://blog.aicoco.net/2023/08/07/the-floss-transition/</id>
+    <published>2023-08-07T00:28:02.000Z</published>
+    <updated>2023-08-07T00:40:36.234Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://www.baldurbjarnason.com/2023/the-floss-transition/">Free and open source software projects are in transition</a></p><p><strong>要点</strong>：  </p><ul><li>过去16年科技泡沫被低利率、缺乏反垄断监管以及宽松法律环境所支持，但现在已经结束。只有少数垄断企业能真正盈利。  </li><li>许多公司正在减少对开源项目的投资，同时想从开源社区获取更多价值。这增加了开源项目的维持压力。  </li><li>开源软件构建了现代科技，大多数现代软件的价值源自开源项目。然而，风险投资似乎是在掠夺开源项目和社区。  </li><li>一些流行框架开始内置专有功能，以从社区获取更多价值。这增加了项目对某些公司的依赖。<br>Eleventy转型的一个好迹象是，它与CloudCannon的合作是真正互利的，有助于减少对Netlify的依赖。  </li><li>语言模型的兴起也可能缩减开源社区，因为直接依赖语言模型生成代码而不需要社区参与。  </li><li>作者担心许多开源项目将面临困难时期，也不确定如何减轻这个问题。但希望自己的担忧是毫无根据的。</li></ul><p><strong>启发</strong>：  </p><ul><li>尽管FLOSS（free&#x2F;libre&#x2F;open source software）为现代技术创造了环境，但现在它正面临着被技术行业剥削的风险。  </li><li>这种观点可能会改变我们对自由和开源软件的理解和使用方式。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.baldurbjarnason.com/2023/the-floss-transition/&quot;&gt;Free and open source software projects are in transition&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="OSS" scheme="https://blog.aicoco.net/tags/OSS/"/>
+    
+  </entry>
   
   <entry>
     <title>给 LLM 洗脑能行吗？</title>
@@ -503,31 +528,6 @@
     
     <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>AI权重开&quot;源&quot;怎么论</title>
-    <link href="https://blog.aicoco.net/2023/07/06/AI_weights_are_not_open_source/"/>
-    <id>https://blog.aicoco.net/2023/07/06/AI_weights_are_not_open_source/</id>
-    <published>2023-07-06T11:17:38.000Z</published>
-    <updated>2023-07-23T06:33:50.418Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://opencoreventures.com/blog/2023-06-27-ai-weights-are-not-open-source/">AI weights are not open “source”</a></p><h4 id="文章主要信息总结"><a href="#文章主要信息总结" class="headerlink" title="文章主要信息总结"></a>文章主要信息总结</h4><ul><li>AI的许可证复杂多样，不同于传统软件的开源或专有授权。</li><li>AI有多个组成部分，如源码、权重、数据等，每个部分的许可方式可能不同。</li><li>为了标准化对AI许可证的讨论，文章提出了一套许可证类型的分类，包括专有、合作者、可用、伦理和开源。</li><li>提倡区分AI的源代码和权重，认识到权重不是源代码，需要特定的许可证类型。</li><li>引用了“开放权重”（Open Weights）和“伦理权重”（Ethical Weights）等术语，以便更准确地描述不同类型的AI权重许可证，避免误用“开源”这个术语。</li></ul><h4 id="详细重点内容"><a href="#详细重点内容" class="headerlink" title="详细重点内容"></a>详细重点内容</h4><ol><li><p><strong>AI许可证复杂性</strong>：AI许可证不同于传统的软件许可证，因为AI有多个组成部分，如源码、权重、数据等，每个部分可能有不同的许可方式。此外，AI的使用还涉及到社会伦理层面的考量，需要更多的限制和约束。</p></li><li><p><strong>标准化许可证分类</strong>：为了更好地讨论AI许可证，文章提出了一套分类，包括专有、合作者、可用、伦理和开源。每个分类针对不同的用途和组成部分，以更清晰地描述许可证的属性。</p></li><li><p><strong>“开放权重”和“伦理权重”</strong>：文章指出权重和源代码是两个不同的概念，不能将权重称为“开源”，因为它们并不是源代码。为了避免混淆，文章提出了“开放权重”和“伦理权重”等术语，以更准确地描述权重的开放程度和许可限制。</p></li><li><p><strong>权重的真正开放性</strong>：许多标注为“开源”的AI权重实际上并不是真正的开源，因为它们不是源代码，而是特定的组件。文章强调使用正确的术语，如“开放权重”和“伦理权重”，有助于推动行业发展，并在不同类型的权重上建立标准。</p></li><li><p><strong>避免“开源洗白”</strong>：由于AI面临与传统软件不同的挑战，可能需要限制某些潜在的有害用途。文章提倡使用“伦理”来描述允许类似开源的自由使用的许可证，避免“开源洗白”，为用户提供更清晰的信息。</p></li></ol><h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><p>文章着重强调AI许可证的复杂性，提出了一套分类以标准化对AI许可证的讨论。作者建议使用“开放权重”和“伦理权重”等术语，以更准确地描述不同类型的AI权重许可证，避免混淆和误用“开源”这个术语。同时，文章强调区分AI的源代码和权重，认识到权重不是源代码，需要特定的许可证类型。通过正确的命名和分类，有助于推动AI领域的标准化和发展。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://opencoreventures.com/blog/2023-06-27-ai-weights-are-not-open-source/&quot;&gt;AI weights are not open “source”&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
   </entry>
   
