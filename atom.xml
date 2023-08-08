@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-07T00:40:36.234Z</updated>
+  <updated>2023-08-08T05:31:06.963Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机器学习模型的grokking是记忆还是泛化？</title>
+    <link href="https://blog.aicoco.net/2023/08/08/grokking/"/>
+    <id>https://blog.aicoco.net/2023/08/08/grokking/</id>
+    <published>2023-08-08T01:16:57.000Z</published>
+    <updated>2023-08-08T05:31:06.963Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://pair.withgoogle.com/explorables/grokking/">Do Machine Learning Models Memorize or Generalize?</a></p><p><strong>要点</strong>：  </p><ul><li>2021年的一项研究发现，在一个小模型在小型算法任务上训练了很久之后，它会突然从记忆训练数据变为正确泛化到未见数据。这种现象被称为“领悟（grokking）”，引起了广泛关注。  </li><li>大型语言模型也会在训练时间更长后突然泛化吗？它们给人极大的理解世界的感觉，但也可能只是在重复它们训练过的大量文本。判断它们是泛化还是记忆非常困难。  </li><li>本文通过分析一个小模型找到的解决方案，来探究这个涌现的机制可解释性领域。尽管目前还不清楚如何将这些技术应用到大模型，但从小模型开始可以帮助我们在回答有关大语言模型的关键问题时建立直觉。  </li><li>通过反向工程，可以看到模型是如何从记忆转向泛化的。模型中的周期模式表示它学习到了任务的特性。正则化推动模型变得更稀疏并关注输入的相关部分。  </li><li>“领悟（grokking）”是一个复杂的现象，存在最优的模型约束、超参数等使其发生。目前还不清楚它是否会在大模型中发生。通过构建更简单的模型并将它们用于解释大模型，可以是理解大模型的一种途径。  </li><li>尽管目前难以理解大模型，但这种从简单模型开始逐步解释的方式非常有前景，也可与其他相关工作互补。这种机制可解释性方法最终也许可以识别有助于发现神经网络学习的算法模式的模式。</li></ul><p><strong>结论</strong>：<br>通过分析一个小模型的“领悟（grokking）”过程，可以更好地理解机器学习中的泛化现象，也为研究大模型的泛化提供启发。从简单模型入手逐步解释大模型是一种有前景的方式。</p><p><strong>启发</strong>：  </p><ul><li>泛化通常会在很久之后才发生，而不是在开始记忆后就逐渐发生。  </li><li>模型会先采用记忆解决方案，后采用泛化解决方案。  </li><li>模型中的表示在泛化后会变得更稀疏简洁，而非复杂的记忆表示。  </li><li>很难预测哪些模型约束（如权重衰减）会促进泛化。  </li><li>小模型可以用来解释大模型。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://pair.withgoogle.com/explorables/grokking/&quot;&gt;Do Machine Learning Models Memorize or Generalize?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;要点&lt;/</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="ML" scheme="https://blog.aicoco.net/tags/ML/"/>
+    
+  </entry>
   
   <entry>
     <title>面临转型的免费开源软件</title>
@@ -506,28 +531,6 @@
     
     
     <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>沉迷工具不会让你成为大师</title>
-    <link href="https://blog.aicoco.net/2023/07/10/Amateurs-obsess-over-tools-pros-over-mastery/"/>
-    <id>https://blog.aicoco.net/2023/07/10/Amateurs-obsess-over-tools-pros-over-mastery/</id>
-    <published>2023-07-10T03:21:09.000Z</published>
-    <updated>2023-07-23T06:29:28.813Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://adamsinger.substack.com/p/amateurs-obsess-over-tools-pros-over">Amateurs obsess over tools, pros over mastery</a></p><h4 id="文章主要信息"><a href="#文章主要信息" class="headerlink" title="文章主要信息"></a>文章主要信息</h4><ul><li>文章强调了业余爱好者过度迷恋新工具，而专业人士更关注技艺的精湛。</li><li>专业人士知道工具并不能决定成就，真正重要的是个人运用它们的心态和技能。</li><li>文章通过例子阐述了技能的重要性，指出工具本身并非关键，个人的精湛运用才是决定成就的关键。</li><li>文章提倡专注于培养基本技能和永恒的原则，摒弃追求新奇工具的心态。</li></ul><h4 id="详细重点内容"><a href="#详细重点内容" class="headerlink" title="详细重点内容"></a>详细重点内容</h4><ol><li><p><strong>业余爱好者迷恋新工具</strong>：现代科技发展迅速，新的工具和应用层出不穷。很多人容易陷入追逐新工具的陷阱，相信使用这些工具会带来高效率、更多产出和成功。然而，过度迷恋新工具只是短暂的热情，很快就会被其他新工具取代，而这些追逐也是徒劳的。</p></li><li><p><strong>专业人士关注技艺</strong>：与业余爱好者不同，真正的专业人士知道工具并不能代表他们的成就。他们理解重要的是运用这些工具的个人心态和技能。类似于音乐家运用吉他演奏，吉他本身可能并不是最先进的工具，但在熟练的音乐家手中，它能产生动人的旋律和感人的和声。</p></li><li><p><strong>精湛的技艺超越工具</strong>：文章举例说明吉他手通过对技艺的深入研究和练习，使得吉他成为创作灵感的源泉。这表明真正的精湛技艺超越了工具本身，是在不受技术潮流影响的基础上持续存在的。</p></li><li><p><strong>专注培养基本技能</strong>：专业人士理解重要的是不断磨练自己的技艺，无论手中有怎样的工具。文章引用了武术家李小龙的名言，强调通过深入、持续的练习，掌握基本技能才是成为专家的关键。</p></li><li><p><strong>不盲目追求新工具</strong>：文章警示不要盲目追求新工具，而是专注于打磨自己的技能。新工具可能只是短暂的潮流，而真正持久的是对基本技能和原则的坚持。</p></li><li><p><strong>超越人工智能的创造力</strong>：文章提到人工智能的发展，但也指出真正的创造力和技艺仍然超越人工智能的能力。专注于个人的技艺将使人们摆脱对人工智能创造力的过度依赖，实现真正意义上的创新。</p></li><li><p><strong>反思和自省</strong>：文章最后呼吁读者在追逐新工具时停下来反思，问自己是否真正在提升自己的技艺，是否被他人的意见所左右，是否在做真正有意义的事情，而不是只是追逐表面的诱惑。</p></li></ol><h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><p>文章强调了专业人士不是盲目追求新工具，而是注重培养自己的技艺和技能。真正的精湛技艺超越了工具本身，并且在不受技术潮流影响的基础上持续存在。专注于培养基本技能和原则，而不是追逐新奇工具，才能成为真正的专业人士。文章还提醒我们要超越人工智能的创造力，通过反思和自省，避免陷入盲目追逐的状态。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://adamsinger.substack.com/p/amateurs-obsess-over-tools-pros-over&quot;&gt;Amateurs obsess over tools, pros over mastery&lt;/a&gt;&lt;/p&gt;</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
     
   </entry>
   
