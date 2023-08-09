@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-08T05:31:06.963Z</updated>
+  <updated>2023-08-09T01:24:35.979Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单一大模型能包打天下吗？</title>
+    <link href="https://blog.aicoco.net/2023/08/09/does-one-model-rule-them-all/"/>
+    <id>https://blog.aicoco.net/2023/08/09/does-one-model-rule-them-all/</id>
+    <published>2023-08-09T00:22:36.000Z</published>
+    <updated>2023-08-09T01:24:35.979Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://maithraraghu.com/blog/2023/does-one-model-rule-them-all/">Does One Large Model Rule Them All?</a></p><p>文章探讨了人工智能的未来，提出一个观点：单一的大型通用人工智能模型不会主导整个人工智能生态系统。</p><p><strong>要点</strong>：<br>1、虽然像GPT-3这样的大型通用人工智能模型已经使许多新功能成为可能，但专门的人工智能系统，而不仅仅是通用人工智能模型，将会驱动高价值工作流。<br>2、在高价值工作流中，专门化对于质量保证至关重要。融入用户反馈需要对人工智能系统进行细粒度的控制，而这在专门的人工智能系统中更易实现。<br>3、许多高价值领域依赖于专有的数据和知识，这将促使公司构建专门的内部人工智能系统。<br>4、大型人工智能模型将面临成本与性能之间的权衡。在效用与成本成比例增加的情况下，通用人工智能模型将商品化或保持高定价。<br>5、未来的人工智能生态系统将包括专门用于高价值工作流的专用人工智能系统，以及少数昂贵的通用人工智能模型，用于支撑低价值工作流。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://maithraraghu.com/blog/2023/does-one-model-rule-them-all/&quot;&gt;Does One Large Model Rule Them All?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文章探讨了人工智能的未来</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习模型的grokking是记忆还是泛化？</title>
@@ -498,31 +523,6 @@
       
     <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.alessiofanelli.com/blog/llama2-isnt-open-source&quot;&gt;LLaMA2 isn’t “Open Source” - and why it doesn’t matter&lt;/a&gt;&lt;/p&gt;
 &lt;</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Meta为何选择开源Llama 2？</title>
-    <link href="https://blog.aicoco.net/2023/07/22/why-did-meta-open-source-llama/"/>
-    <id>https://blog.aicoco.net/2023/07/22/why-did-meta-open-source-llama/</id>
-    <published>2023-07-22T00:40:27.000Z</published>
-    <updated>2023-07-23T06:20:35.727Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://matt-rickard.com/why-did-meta-open-source-llama">Why Did Meta Open-Source Llama 2?</a></p><h4 id="对Meta开源Llama-2可能原因的一些猜想"><a href="#对Meta开源Llama-2可能原因的一些猜想" class="headerlink" title="对Meta开源Llama 2可能原因的一些猜想"></a>对Meta开源Llama 2可能原因的一些猜想</h4><h5 id="削弱竞争对手的优势"><a href="#削弱竞争对手的优势" class="headerlink" title="削弱竞争对手的优势"></a>削弱竞争对手的优势</h5><ul><li><p>Llama 2 对拥有专有模型的竞争对手，如Google和OpenAI(以及Microsoft的相关服务)，构成了挑战。通过开源大模型，可以<strong>削弱这些大公司在语言模型领域的优势</strong>。</p></li><li><p>作为身处服务栈需要<strong>持续吸引用户</strong>的公司，Meta坐拥数十亿固定用户，这使他们在竞争中占据优势。</p></li></ul><h5 id="市场推广策略的考虑"><a href="#市场推广策略的考虑" class="headerlink" title="市场推广策略的考虑"></a>市场推广策略的考虑</h5><ul><li><p>Llama 2提供不同参数大小的模型，包括7b、13b和70b。通过将较小的模型作为“免费版”自助选项，Meta可以吸引用户，并鼓励他们在未来<strong>选择Meta平台的更大或更新的版本</strong>。</p></li><li><p>Meta可能推出一系列与Llama 2<strong>相关的扩展产品</strong>，包括为Instagram、Threads或Facebook提供支持Llama的功能，特殊设计的硬件芯片和数据中心，以及在PyTorch中优化Llama衍生模型的机器学习框架。</p></li><li><p>此外，Meta未来可能推出<strong>托管服务作为商业化产品</strong>，其中将Llama 2作为基础组件。</p></li></ul><h5 id="市场营销和声誉建设"><a href="#市场营销和声誉建设" class="headerlink" title="市场营销和声誉建设"></a>市场营销和声誉建设</h5><ul><li>通过开源Llama 2并将自己定位为技术前沿的公司，Meta旨在<strong>建立强大的声誉</strong>。这样的声誉可以吸引开发者、用户和媒体的关注，类似于Google多年来的积极影响。</li></ul><p>总体而言，开源Llama 2的决定使得Meta可以挑战和削弱竞争对手，用自助免费模型吸引用户，在语言模型领域树立创新领先的公司形象。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://matt-rickard.com/why-did-meta-open-source-llama&quot;&gt;Why Did Meta Open-Source Llama 2?&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;对Meta开源Llama-2可能原因</summary>
       
     
     
