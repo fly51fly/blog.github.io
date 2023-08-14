@@ -6,7 +6,7 @@
   <link href="https://blog.aicoco.net/atom.xml" rel="self"/>
   
   <link href="https://blog.aicoco.net/"/>
-  <updated>2023-08-09T01:24:35.979Z</updated>
+  <updated>2023-08-14T01:04:18.039Z</updated>
   <id>https://blog.aicoco.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Llama和ChatGPT都不算开源</title>
+    <link href="https://blog.aicoco.net/2023/08/14/open-source-llm-not-open/"/>
+    <id>https://blog.aicoco.net/2023/08/14/open-source-llm-not-open/</id>
+    <published>2023-08-14T00:55:00.000Z</published>
+    <updated>2023-08-14T01:04:18.039Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文：<a href="https://spectrum.ieee.org/open-source-llm-not-open">Llama and ChatGPT Are Not Open-Source</a></p><p>文章分析了Meta发布的LLM模型Llama 2和OpenAI的ChatGPT是否真正开源。使用Radboud大学研究员设计的一套标准来给不同开源LLM模型的开放程度进行评分。论文指出，虽然Meta提供了Llama 2的预训练模型权重和文档，但未公开训练数据和训练代码，也未进行同行评审。进一步比较不同模型，论文发现虽有一些小型研究模型开源程度较高，但所有模型在重要的人工反馈强化学习环节和同行评审过程描述都很不充分，这可能会影响研究结果的可复现性。总体来看，商业LLM如Llama 2和ChatGPT虽被标注为“开源”，但实际开放程度有待改进。它们在保护商业机密的同时，也影响了学术研究的公开透明度，这也推动了LLM开发向更真正开源的方向转型。  </p><p>要点：    </p><ul><li>Meta发布了其大型语言模型Llama的更新，命名为Llama 2，并将其作为开源版本发布。  </li><li>Llama 2开源版本允许用户访问模型权重、评估代码和文档。  </li><li>Meta的开源发布旨在使模型“对个人、创作者、研究人员和企业可访问，以便他们能够负责地进行实验、创新并扩展他们的想法”。  </li><li>不同于其他开源的LLM和软件包，Llama 2在某种程度上比较封闭。尽管Meta已经提供了经过训练的模型，但未分享用于训练模型的数据或代码。  </li><li>在荷兰的Radboud大学的一组AI研究人员的研究中，他们认为Llama 2并不是唯一一个被质疑为“开源”的LLM。他们用多维评估模型的开放性，在一个表格中对15个不同的名义上开源的LLM进行评分。  </li><li>该研究小组认为Llama 2和ChatGPT的开源状态不佳。  </li><li>LLM的可复制性问题主要表现在模型的开放性和公开的评审过程上。  </li><li>商业LLM的发布方式避免了同行评审流程，而是通过公司托管的预印本文档进行发布。  </li><li>研究小组对Llama 2模型持批评态度，认为Meta将“开源”用于这个模型是误导性的。  </li><li>尽管这项研究可能促使领域朝着真正开源的模型开发方向发展，但研究人员仍对商业模型在学术研究中的使用持谨慎态度。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://spectrum.ieee.org/open-source-llm-not-open&quot;&gt;Llama and ChatGPT Are Not Open-Source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文章分析了Meta发布的LLM模型Llama 2</summary>
+      
+    
+    
+    
+    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
+    
+    
+    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
+    
+  </entry>
   
   <entry>
     <title>单一大模型能包打天下吗？</title>
@@ -506,31 +531,6 @@
     
     
     <category term="Programming" scheme="https://blog.aicoco.net/tags/Programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LLaMA2不是真正意义上的“开源”</title>
-    <link href="https://blog.aicoco.net/2023/07/22/llama2-isnt-open-source/"/>
-    <id>https://blog.aicoco.net/2023/07/22/llama2-isnt-open-source/</id>
-    <published>2023-07-22T01:09:12.000Z</published>
-    <updated>2023-07-23T06:16:54.294Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文：<a href="https://www.alessiofanelli.com/blog/llama2-isnt-open-source">LLaMA2 isn’t “Open Source” - and why it doesn’t matter</a></p><h3 id="LLaMA2-并非真正的“开源”，但这并不重要"><a href="#LLaMA2-并非真正的“开源”，但这并不重要" class="headerlink" title="LLaMA2 并非真正的“开源”，但这并不重要"></a>LLaMA2 并非真正的“开源”，但这并不重要</h3><p>作者是一位开源公司创始人，多年来一直参与开源社区，对开源项目的贡献、演讲和投资充满热情。他认为，互联网之所以成为现在的样子，很大程度上归功于那些支撑着数字基础设施的优秀开源项目，因此开源始终是他心中的重要话题。</p><p>然而，当 LLaMA2 出现时，许多他尊敬的社区成员对该模型误用“开源”一词感到不满。</p><p>LLaMA2 虽然在很大程度上是开源的，但其中有限制条件，例如：如果在发布日期时月活跃用户超过7亿，就不能以商业目的使用该模型；同时也不能使用该模型的输出结果来训练其他大型语言模型。这些限制与开源精神不太相符。但是，尽管作者同意 LLaMA2 在传统意义上不能称为开源，但他认为这并不重要。在人工智能模型的世界中，“开源”一词需要再次演变。</p><h5 id="从自由到开源"><a href="#从自由到开源" class="headerlink" title="从自由到开源"></a>从自由到开源</h5><p>在文章中，作者回顾了自由软件和开源运动的历史。自1976年“给业余爱好者的公开信”以来，软件公司的商业利益与想要绕过限制的黑客的好奇心之间一直存在紧张关系。70年代，自由软件运动在麻省理工学院的人工智能实验室起源，由 Richard Stallman 创立，最终于1983年发展成 GNU 项目。GPL “copyleft” 许可证诞生，并被 Red Hat、MySQL、Git 和 Ubuntu 等项目采用。</p><p>“开源”这个词在1998年得以确立，归功于麻省理工学院的 Christine Peterson。在“免费软件高峰会”上，“自由软件”一词正式被“开源软件”取代。随着时间的推移，“自由软件”和“开源软件”社区出现了分歧，因为它们对“自由”和“开源”的理解不同。自由软件，如自由软件基金会所规定，只是开源软件的一个子集，采用非常宽松的许可证，如 GPL 和 Apache。</p><p>在过去十年里，由于商业开源公司和云超大规模企业之间的紧张关系，出现了另一种分歧。Elastic 和 MongoDB 将其开源项目转换为“服务器端公共许可证”（SSPL），允许开发者在商业用途下使用产品，前提是所提供的不是产品的托管版本。其目标是阻止 AWS 将它们的产品作为云服务重新托管并从中获利。然而，SSPL 也侵犯了开源理念，并未获得开源倡议组织的认可。尽管如此，大多数开发者仍然认为 MongoDB 是开源的。逐渐地，“开源”一词正在失去其自由的涵义，在开发者心目中几乎成为“源码可用”的同义词。</p><h5 id="从源码到权重"><a href="#从源码到权重" class="headerlink" title="从源码到权重"></a>从源码到权重</h5><p>随着像 Dolly、MPT、LLaMA 等开放模型的崛起，社区中出现了类似的分歧。对于大多数 AI 工程师来说，如今的“开源”意味着“可下载权重”，仅此而已。Heather Meeker 提出了“开放权重”的定义，但目前还没有社区共识。问题在于，开放权重是否足以使一个模型被称为开源；软件的类比是项目发布其二进制文件而不提供源代码以供重新构建。</p><p>要使模型真正成为开源且可从头开始重新训练，创建者需要分享所有的训练代码、预训练数据集、微调偏好、RLHF 示例等。然而，这些训练过程的成本非常高，即使有人愿意全部公开，对于大多数开发者和公司来说，从头训练模型是不可行的，因此能够获得最终权重更加实用。</p><h5 id="开放模型"><a href="#开放模型" class="headerlink" title="开放模型"></a>开放模型</h5><p>在大型语言模型（LLMs）领域，术语“开源”用于定义多种开放程度：</p><ol><li>开放模型：如 RedPajama 和 MPT-7B，它们的权重对商业用途是开放的（使用 Apache 2.0 许可证），而且可以从头开始重新训练，因为数据集是开源的。</li><li>开放权重：StableLM 是 StabilityAI 训练的开放模型。权重是开放的，使用 Apache 2.0 许可证，但用于训练的数据集对公众是不可用的。</li><li>受限权重：这是指 LLaMA2。预训练数据集也不可用，尽管权重据称对商业用途是开放的，但存在上述特定限制。</li><li>受污染(Contaminated)权重：Dolly 1.0 和 LLaMA1 属于这一类别。权重是公开的，但用于训练它们的数据集不允许商业用途，这使得它在技术上是开放的，但实际上是无用的。</li></ol><p>在可预见的未来，开源和开放权重将被互换使用，而作者认为这没问题。重要的是，越来越多的工作以尽可能开放的方式进行。对于 LLaMA2 的许可证，人们可能感到失望，但是 Meta 刚刚将价值约200万美元的浮点运算放进了 Github 库，作者认为这对该领域的进展将产生积极的影响。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.alessiofanelli.com/blog/llama2-isnt-open-source&quot;&gt;LLaMA2 isn’t “Open Source” - and why it doesn’t matter&lt;/a&gt;&lt;/p&gt;
-&lt;</summary>
-      
-    
-    
-    
-    <category term="文摘" scheme="https://blog.aicoco.net/categories/%E6%96%87%E6%91%98/"/>
-    
-    
-    <category term="LLM" scheme="https://blog.aicoco.net/tags/LLM/"/>
     
   </entry>
   
